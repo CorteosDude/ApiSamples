@@ -1,0 +1,204 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetSimpleReserveByIdResponse xmlns="http://corteos.ru">
+         <GetSimpleReserveByIdResult id_Reserve="1757955" id_ComplexReserve="757989" ComplexReserveName="Санкт-Петербург" Locator="N3V7NK" Price="3239.6" Header="Москва-Санкт-Петербург" Brief="S7-1005 DME-LED 07:50 (BASIC ECONOMY)" OrderTypeName="Avia" id_ReserveType="1" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="697" id_ReserveState="7" ReserveStateName="queued" DateCreate="2019-07-05T13:56:05.04">
+            <id_PayerOrganization>68</id_PayerOrganization>
+            <OrderSpecificData>
+               <BLMultiItinerary Key="4984891" xmlns="">
+                  <Itinerary Key="2945441359" Locator="N3V7NK" EquivTotal="3239.6" id_System="9" FamilyCode="WBSOW" id_Profile="306" CorporateDiscountDetails="" ValidatingCarrier="S7" DateBooked="2019-07-05T14:03:32.7778446+03:00" Timelimit="08.07.2019 13:50:00">
+                     <MetaData>
+                        <billing_number>125365052</billing_number>
+                        <sig>acf8a902ca94fc39fbf65d1b935549b60516125b</sig>
+                     </MetaData>
+                     <Fare FareName="Economy">0</Fare>
+                     <Legs>
+                        <Leg Key="3123865586" id_System="9" DurationMinutes="100">
+                           <MetaData>
+                              <gds>9</gds>
+                           </MetaData>
+                           <Flight Key="3519383213" Airline="S7" OperatingAirline="S7" Number="1005" Origin="DME" OriginTerminal="" Destination="LED" DestinationTerminal="1" DepartureDate="20.11.2019 7:50:00" ArrivalDate="20.11.2019 9:30:00" AirplaneCode="Airbus A319" Status="HK" NumOfStops="0" RBD="w" FareName="WBSOW" SeatsStatus="9" AirlineLocator="" Baggage="0" OriginCountryName="Россия" OriginCityName="Москва" DestinationCountryName="Россия" DestinationCityName="Санкт-Петербург"/>
+                        </Leg>
+                     </Legs>
+                     <Masks>
+                        <Mask Key="2082374629" EquivTotal="3239.6" PassengerType="0" PassengerTypeName="Adult" PassengersQuantity="1" VAT="136.3636">
+                           <Endorsement/>
+                           <FareCalculation/>
+                           <VATRemark>VAT A/C 136.36/10P</VATRemark>
+                           <BaseFare Key="3078476791" Value="1500" CurrencyCode="RUB" CurrencyRate="1" EquivValue="1500" VAT="136.3636" Comment="" EquivCode="RUB"/>
+                           <ServiceFee Key="2130821006" Value="124.6" CurrencyCode="RUB" CurrencyRate="1" EquivValue="124.6" VAT="0" Comment="" EquivCode="RUB"/>
+                           <HiddenFee Key="1356549723" Value="0" CurrencyCode="RUB" CurrencyRate="0" EquivValue="0" VAT="0" Comment="" EquivCode="RUB"/>
+                           <Commission Key="1356549723" Value="0" CurrencyCode="RUB" CurrencyRate="0" EquivValue="0" VAT="0" Comment="0%" EquivCode="RUB"/>
+                           <PaxReferences>
+                              <Ref>1058628910</Ref>
+                           </PaxReferences>
+                           <LegReferences>
+                              <Ref Key="3123865586"/>
+                           </LegReferences>
+                           <Taxes EquivValue="1615">
+                              <Tax Key="2396573057" Value="1515" CurrencyCode="RUB" CurrencyRate="1" EquivValue="1515" VAT="0" Comment="" EquivCode="RUB" TaxCode="TX"/>
+                              <Tax Key="1348616474" Value="100" CurrencyCode="RUB" CurrencyRate="1" EquivValue="100" VAT="0" Comment="" EquivCode="RUB" TaxCode="DP"/>
+                           </Taxes>
+                        </Mask>
+                     </Masks>
+                     <Tickets>
+                        <Ticket Key="2915619124" TicketNumber="7567371428608" TicketingDate="05.07.2019 14:03:28" MaskKey="2082374629" PassengerKey="1058628910">
+                           <Endorsement/>
+                        </Ticket>
+                     </Tickets>
+                     <FreeTextRemarks/>
+                     <Passengers>
+                        <Passenger Key="1058628910" FirstName="Max" LastName="Taranenko" MiddleName="" Date="01.01.1980 0:00:00" Gender="true" Type="Adult" CitizenshipCode="RU" DocumentNumber="2222222228" DocumentValid="19.06.2039 0:00:00" Email="taranenko1@corteos.ru" MobilePhone=" 7 999 999 99 92" MileCardNumber="" MileCardAirline="" id_Passenger="2086911" id_Person="10786" id_Document="621850" id_MileCard=""/>
+                     </Passengers>
+                     <SSRs/>
+                     <FareRemarks/>
+                  </Itinerary>
+               </BLMultiItinerary>
+            </OrderSpecificData>
+            <MostCheapVariant>
+               <MultiItinerary Key="3513934506" xmlns="">
+                  <Itinerary Key="3236153429" Locator="" EquivTotal="1385.69" id_System="2" FamilyCode="AV3_BAGGAGE" id_Profile="306" CorporateDiscountDetails="" ValidatingCarrier="4G" Timelimit="20.11.2019 23:00:00">
+                     <Fare FareName="Economy">0</Fare>
+                     <ItineraryUpsell Key="733002392" FamilyName="WITH BAGGAGE" Airline="4G" FamilyCode="AV3_BAGGAGE" EquivTotal="1385.69" EquivTotalDifference="0" HasFreeBaggage="true" BaggageCodes="1PC"/>
+                     <Legs>
+                        <Leg Key="2289426210" id_System="2" DurationMinutes="85">
+                           <Flight Key="947866696" Airline="4G" OperatingAirline="4G" Number="105" Origin="DME" OriginTerminal="" Destination="LED" DestinationTerminal="2" DepartureDate="20.11.2019 10:15:00" ArrivalDate="20.11.2019 11:40:00" AirplaneCode="737" Status="HK" NumOfStops="0" RBD="E" FareName="ESALEOW" SeatsStatus="9" AirlineLocator="" Baggage="1PC" OriginCountryName="Россия" OriginCityName="Москва" DestinationCountryName="Россия" DestinationCityName="Санкт-Петербург"/>
+                        </Leg>
+                     </Legs>
+                     <Masks>
+                        <Mask Key="2511705995" EquivTotal="1385.69" PassengerType="0" PassengerTypeName="Adult" PassengersQuantity="1" VAT="123.74">
+                           <Endorsement/>
+                           <FareCalculation/>
+                           <BaseFare Key="83916364" Value="100" CurrencyCode="RUB" CurrencyRate="1" EquivValue="100" VAT="95.52" Comment="" EquivCode="RUB"/>
+                           <ServiceFee Key="1062513446" Value="150" CurrencyCode="RUB" CurrencyRate="1" EquivValue="150" VAT="0" Comment="" EquivCode="RUB"/>
+                           <HiddenFee Key="1356549723" Value="0" CurrencyCode="RUB" CurrencyRate="0" EquivValue="0" VAT="0" Comment="" EquivCode="RUB"/>
+                           <Commission Key="1356549723" Value="0" CurrencyCode="RUB" CurrencyRate="0" EquivValue="0" VAT="0" Comment="" EquivCode="RUB"/>
+                           <LegReferences>
+                              <Ref Key="2289426210"/>
+                           </LegReferences>
+                           <Taxes EquivValue="1135.69">
+                              <Tax Key="2918872597" Value="185" CurrencyCode="RUB" CurrencyRate="1" EquivValue="185" VAT="28.22" Comment="" EquivCode="RUB" TaxCode="ZZ"/>
+                              <Tax Key="621782595" Value="950.69" CurrencyCode="RUB" CurrencyRate="1" EquivValue="950.69" VAT="0" Comment="" EquivCode="RUB" TaxCode="RI"/>
+                           </Taxes>
+                        </Mask>
+                     </Masks>
+                     <Tickets/>
+                     <FreeTextRemarks/>
+                     <Passengers/>
+                     <SSRs/>
+                     <FareRemarks>
+                        <FareRemark Key="152660503" OriginCode="MOW" DestinationCode="LED">
+                           <RemarkText>1111</RemarkText>
+                        </FareRemark>
+                     </FareRemarks>
+                  </Itinerary>
+               </MultiItinerary>
+            </MostCheapVariant>
+            <MostExpensiveVariant>
+               <MultiItinerary Key="40585432" xmlns="">
+                  <Itinerary Key="301384481" Locator="" EquivTotal="60957.52" id_System="3" FamilyCode="AV3_BAGGAGE" id_Profile="306" CorporateDiscountDetails="" ValidatingCarrier="SU" Timelimit="08.07.2019 23:00:00">
+                     <Fare FareName="Economy">0</Fare>
+                     <ItineraryUpsell Key="733002392" FamilyName="WITH BAGGAGE" Airline="SU" FamilyCode="AV3_BAGGAGE" EquivTotal="60957.52" EquivTotalDifference="0" HasFreeBaggage="true" BaggageCodes="1N"/>
+                     <Legs>
+                        <Leg Key="483801400" id_System="3" DurationMinutes="1760">
+                           <Flight Key="3195860131" Airline="SU" OperatingAirline="SU" Number="1462" Origin="SVO" OriginTerminal="B" Destination="OVB" DestinationTerminal="A" DepartureDate="20.11.2019 7:05:00" ArrivalDate="20.11.2019 15:15:00" AirplaneCode="32A" Status="HK" NumOfStops="0" RBD="B" FareName="BCOR" SeatsStatus="7" AirlineLocator="" Baggage="1N" OriginCountryName="Россия" OriginCityName="Москва" DestinationCountryName="Россия" DestinationCityName="Новосибирск"/>
+                           <Flight Key="1707016463" Airline="S7" OperatingAirline="GH" Number="5003" Origin="OVB" OriginTerminal="A" Destination="LED" DestinationTerminal="1" DepartureDate="21.11.2019 11:40:00" ArrivalDate="21.11.2019 12:25:00" AirplaneCode="738" Status="HK" NumOfStops="0" RBD="R" FareName="RFLOW" SeatsStatus="9" AirlineLocator="" Baggage="1N" OriginCountryName="Россия" OriginCityName="Новосибирск" DestinationCountryName="Россия" DestinationCityName="Санкт-Петербург"/>
+                        </Leg>
+                     </Legs>
+                     <Masks>
+                        <Mask Key="404708928" EquivTotal="60957.52" PassengerType="0" PassengerTypeName="Adult" PassengersQuantity="1" VAT="5009.0909">
+                           <Endorsement>TICKETS ARE NON-REFUNDABLE
+LAST TKT DTE
+08JUL19
+ - SEE ADV PURCHASE</Endorsement>
+                           <FareCalculation/>
+                           <VATRemark>VAT A/C 5009.09/10P</VATRemark>
+                           <BaseFare Key="1277075362" Value="55100" CurrencyCode="RUB" CurrencyRate="1" EquivValue="55100" VAT="5009.0909" Comment="" EquivCode="RUB"/>
+                           <ServiceFee Key="980432615" Value="2344.52" CurrencyCode="RUB" CurrencyRate="1" EquivValue="2344.52" VAT="0" Comment="" EquivCode="RUB"/>
+                           <HiddenFee Key="1356549723" Value="0" CurrencyCode="RUB" CurrencyRate="0" EquivValue="0" VAT="0" Comment="" EquivCode="RUB"/>
+                           <Commission Key="3322656910" Value="1" CurrencyCode="RUB" CurrencyRate="1" EquivValue="1" VAT="0" Comment="" EquivCode="RUB"/>
+                           <LegReferences>
+                              <Ref Key="483801400"/>
+                           </LegReferences>
+                           <Taxes EquivValue="3513">
+                              <Tax Key="4207121323" Value="3513" CurrencyCode="RUB" CurrencyRate="1" EquivValue="3513" VAT="0" Comment="" EquivCode="RUB" TaxCode="TX"/>
+                           </Taxes>
+                        </Mask>
+                     </Masks>
+                     <Tickets/>
+                     <FreeTextRemarks/>
+                     <Passengers/>
+                     <SSRs/>
+                     <FareRemarks/>
+                  </Itinerary>
+               </MultiItinerary>
+            </MostExpensiveVariant>
+            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="Соколинина" FirstName="Мариночка"/>
+            <ServiceTeam>
+               <id_ServiceTeam>697</id_ServiceTeam>
+               <Name>Т2 тестирование</Name>
+            </ServiceTeam>
+            <Codes/>
+            <Passengers>
+               <StablePassenger>
+                  <id_Passenger>2086911</id_Passenger>
+                  <id_Person>10786</id_Person>
+                  <FirstName>Максим</FirstName>
+                  <LastName>Тараненко</LastName>
+                  <FirstNameLatin>Max</FirstNameLatin>
+                  <LastNameLatin>Taranenko</LastNameLatin>
+                  <SurName/>
+                  <DocumentType>Passport</DocumentType>
+                  <DocumentNumber>2222222228</DocumentNumber>
+                  <id_Document>621850</id_Document>
+                  <id_MileCard xsi:nil="true"/>
+                  <Codes/>
+               </StablePassenger>
+            </Passengers>
+            <Violations>
+               <StablePolicyViolation>
+                  <id_Violation>240167</id_Violation>
+                  <id_Policy>3837</id_Policy>
+                  <TravelPolicyName>50% от минималки</TravelPolicyName>
+                  <ViolationTextEnglish>AdvancedPriceDeviationRule: Selected variant price is 3240 rub, while optimal price for the route is 1386 rub, travel policy allows only 50% deviation from the minimal price (Тараненко Максим)</ViolationTextEnglish>
+                  <ViolationTextRussian>AdvancedPriceDeviationRule: Стоимость выбранного варианта составляет 3240 руб, стоимость минимального варианта - 1386 руб, допустимый процент отклонения от минимальной цены для этого маршрута составляет 50% (Тараненко Максим)</ViolationTextRussian>
+               </StablePolicyViolation>
+            </Violations>
+            <Files>
+               <StableFile>
+                  <id_File>3039507</id_File>
+                  <Caption>Taranenko, Moscow->Saint-Petersburg, 20 November</Caption>
+                  <Url>https://static.corteos.ru/2019-7/1757955/583ab6e5-0437-4245-a5fc-36c890b1176b/ETICKET TARANENKO M. 20.11 DME-LED.PDF?t=636979322381821814</Url>
+                  <IsTravelDocument>true</IsTravelDocument>
+                  <TicketNumber>7567371428608</TicketNumber>
+                  <id_User>58</id_User>
+               </StableFile>
+            </Files>
+            <Payer>
+               <id_PayerOrganization>68</id_PayerOrganization>
+               <INN>7799521829</INN>
+               <KPP>779901001</KPP>
+            </Payer>
+            <ComplexReserveReference id_ComplexReserve="757989" Name="Санкт-Петербург" id_ClientCreator="113" CreationDate="2019-07-05T13:55:39.93" CurrentState="Finished">
+               <Codes>
+                  <StableCode>
+                     <id_MetaCode>116</id_MetaCode>
+                     <id_MetaDictionary>102</id_MetaDictionary>
+                     <CodeValue>SWR</CodeValue>
+                     <CodeName>Мечник</CodeName>
+                     <DictionaryName>Должность</DictionaryName>
+                     <DictionaryType>StructuralPersonal</DictionaryType>
+                  </StableCode>
+                  <StableCode>
+                     <id_MetaCode>164</id_MetaCode>
+                     <id_MetaDictionary>110</id_MetaDictionary>
+                     <CodeValue>Y</CodeValue>
+                     <CodeName>Да</CodeName>
+                     <DictionaryName>Начальник</DictionaryName>
+                     <DictionaryType>StructuralPersonal</DictionaryType>
+                  </StableCode>
+               </Codes>
+            </ComplexReserveReference>
+         </GetSimpleReserveByIdResult>
+      </GetSimpleReserveByIdResponse>
+   </soap:Body>
+</soap:Envelope>

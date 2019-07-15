@@ -1,0 +1,160 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetSimpleReserveByIdResponse xmlns="http://corteos.ru">
+         <GetSimpleReserveByIdResult id_Reserve="1757389" id_ComplexReserve="757630" ComplexReserveName="Москва" Locator="98164" Price="55555" Header="Размещение в Москва" Brief="Татьяна" OrderTypeName="Hotel" id_ReserveType="3" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="8" id_ReserveState="5" ReserveStateName="finished" DateCreate="2019-05-23T17:29:57.483">
+            <id_PayerOrganization>68</id_PayerOrganization>
+            <OrderSpecificData>
+               <BLExtendedBooking Stars="3" Latitude="55.819975" Longitude="37.647020699999985" ProviderCode="TT" HasAirportTransfer="false" HasFitness="false" HasInternet="false" HasParking="false" HasSpa="false" HasPool="false" id_System="71" CanBeRefreshed="false" State="2" ruCityName="Москва" ruCountryName="Россия" enCityName="Moscow" enCountryName="Russia" xmlns="">
+                  <StateString>Completed</StateString>
+                  <HotelName>
+                     <BS Rus="Татьяна" En="Tatiana"/>
+                  </HotelName>
+                  <NormalizedName>татьяна</NormalizedName>
+                  <NormalizedNameEn>tatiana</NormalizedNameEn>
+                  <HotelAddress>
+                     <BS Rus="Оксана, Ярославская улица, Москва, Россия" En="Oxana, Iaroslavskaia Ulitsa, Moskva, Rossiia"/>
+                  </HotelAddress>
+                  <Email/>
+                  <Phone/>
+                  <Url/>
+                  <DefaultCheckinTime>12:00:00</DefaultCheckinTime>
+                  <DefaultCheckoutTime>10:00:00</DefaultCheckoutTime>
+                  <SpecialRemark>
+                     <BS Rus="" En=""/>
+                  </SpecialRemark>
+                  <Rooms>
+                     <ExtendedRoomDescription IsOnRequest="true" AutomaticEarlyCheckin="false" AutomaticLateCheckout="false" AutomaticMealAddition="false" HasBreakfast="false" HasInternet="false" HasBathroom="false" Is3D="true">
+                        <RoomName>
+                           <BS Rus="Обычный" En="Simple"/>
+                        </RoomName>
+                        <ProviderCode/>
+                        <AgentInformation/>
+                        <VAT/>
+                        <MealName>
+                           <BS Rus="" En=""/>
+                        </MealName>
+                        <DailyPrices>
+                           <Price>2500</Price>
+                        </DailyPrices>
+                        <FreeCancelationDate>21.08.2019 12:00:00</FreeCancelationDate>
+                        <DefaultCheckInTime>12:00</DefaultCheckInTime>
+                        <DefaultCheckOutTime>10:00</DefaultCheckOutTime>
+                        <CancelationPolicies>
+                           <ExtendedCancelationPolicy>
+                              <DateStart>21.08.2019 12:00:00</DateStart>
+                              <DateEnd/>
+                              <RefundFee ServiceFee="0" BaseRefundFee="0">0</RefundFee>
+                              <CurrencyCode>RUB</CurrencyCode>
+                           </ExtendedCancelationPolicy>
+                        </CancelationPolicies>
+                        <BaseHotelRateAccessor id_System="71" RateCode="6119" id_Profile="54" AgencyName="Transtour" CheckInTime="12:00" CheckOutTime="10:00" Price="55555">
+                           <SystemName>Database</SystemName>
+                           <CheckInTime>12:00</CheckInTime>
+                           <CheckOutTime>10:00</CheckOutTime>
+                           <Details/>
+                           <Accessor id_System="71" id_City="6297" HotelName="Татьяна" id_ProviderGroup="1" id_Profile="54">
+                              <HotelCode>492313</HotelCode>
+                              <Adults>1</Adults>
+                              <ChildAges/>
+                              <Checkin>21.08.2019</Checkin>
+                              <Checkout>22.08.2019</Checkout>
+                              <CurrentPaymentType>0</CurrentPaymentType>
+                              <Details/>
+                           </Accessor>
+                        </BaseHotelRateAccessor>
+                        <ExtendedRatePrice TotalPrice="55555" ExtraPrice="0" CurrencyCode="RUB" OriginalPrice="55555" ConvertionRate="1" HiddenServiceFee="0" ServiceFee="0" Discount="0" ComparisionTotalPrice="55555" ComparisionOriginalPrice="55555" ComparisionDiscount="0" ComparisionServiceFee="0" ComparisionHiddenServiceFee="0">
+                           <id_Currency/>
+                           <VAT/>
+                        </ExtendedRatePrice>
+                        <CheckInSurcharge/>
+                        <CheckOutSurcharge/>
+                     </ExtendedRoomDescription>
+                  </Rooms>
+                  <RefundPenalty>
+                     <ExtendedRatePrice TotalPrice="0" ExtraPrice="0" CurrencyCode="RUB" OriginalPrice="0" ConvertionRate="1" HiddenServiceFee="0" ServiceFee="0" Discount="0" ComparisionTotalPrice="0" ComparisionOriginalPrice="0" ComparisionDiscount="0" ComparisionServiceFee="0" ComparisionHiddenServiceFee="0">
+                        <id_Currency/>
+                        <VAT/>
+                     </ExtendedRatePrice>
+                  </RefundPenalty>
+                  <Locator>98164</Locator>
+                  <VendorLocator/>
+                  <Guests>
+                     <Person>
+                        <Citizenship>RU</Citizenship>
+                        <DocumentNumber/>
+                        <FirstName>Max</FirstName>
+                        <Gender>true</Gender>
+                        <LastName>Taranenko</LastName>
+                        <DateBirth>01.01.1980 0:00:00</DateBirth>
+                     </Person>
+                  </Guests>
+                  <Remarks/>
+               </BLExtendedBooking>
+            </OrderSpecificData>
+            <MostCheapVariant>
+               <NotAvailable xmlns=""/>
+            </MostCheapVariant>
+            <MostExpensiveVariant>
+               <NotAvailable xmlns=""/>
+            </MostExpensiveVariant>
+            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="Соколинина" FirstName="Мариночка"/>
+            <ServiceTeam>
+               <id_ServiceTeam>8</id_ServiceTeam>
+               <Name>Тест СТ</Name>
+               <Code/>
+            </ServiceTeam>
+            <Codes/>
+            <Passengers>
+               <StablePassenger>
+                  <id_Passenger>2085888</id_Passenger>
+                  <id_Person>10786</id_Person>
+                  <FirstName>Максим</FirstName>
+                  <LastName>Тараненко</LastName>
+                  <FirstNameLatin>Max</FirstNameLatin>
+                  <LastNameLatin>Taranenko</LastNameLatin>
+                  <SurName/>
+                  <DocumentType>Passport</DocumentType>
+                  <id_Document>0</id_Document>
+                  <id_MileCard xsi:nil="true"/>
+                  <Codes/>
+               </StablePassenger>
+            </Passengers>
+            <Files>
+               <StableFile>
+                  <id_File>3039406</id_File>
+                  <Caption>Taranenko,Simple,Tatiana,Moscow,21.08-22.08.2019</Caption>
+                  <Url>https://static.corteos.ru/2019-5/1757389/d3bfe465-90d2-402f-b5b9-281fe71307dc/TARANENKO 21.08_1N TATIANA_MOSCOW.PDF?t=636942324909982769</Url>
+                  <IsTravelDocument>true</IsTravelDocument>
+                  <TicketNumber>-</TicketNumber>
+                  <id_User>58</id_User>
+               </StableFile>
+            </Files>
+            <Payer>
+               <id_PayerOrganization>68</id_PayerOrganization>
+               <INN>7799521829</INN>
+               <KPP>779901001</KPP>
+            </Payer>
+            <ComplexReserveReference id_ComplexReserve="757630" Name="Москва" id_ClientCreator="113" CreationDate="2019-05-23T17:29:38.293" CurrentState="Finished">
+               <Codes>
+                  <StableCode>
+                     <id_MetaCode>116</id_MetaCode>
+                     <id_MetaDictionary>102</id_MetaDictionary>
+                     <CodeValue>SWR</CodeValue>
+                     <CodeName>Мечник</CodeName>
+                     <DictionaryName>Должность</DictionaryName>
+                     <DictionaryType>StructuralPersonal</DictionaryType>
+                  </StableCode>
+                  <StableCode>
+                     <id_MetaCode>164</id_MetaCode>
+                     <id_MetaDictionary>110</id_MetaDictionary>
+                     <CodeValue>Y</CodeValue>
+                     <CodeName>Да</CodeName>
+                     <DictionaryName>Начальник</DictionaryName>
+                     <DictionaryType>StructuralPersonal</DictionaryType>
+                  </StableCode>
+               </Codes>
+            </ComplexReserveReference>
+         </GetSimpleReserveByIdResult>
+      </GetSimpleReserveByIdResponse>
+   </soap:Body>
+</soap:Envelope>

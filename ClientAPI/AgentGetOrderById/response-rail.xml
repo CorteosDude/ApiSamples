@@ -1,0 +1,104 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetSimpleReserveByIdResponse xmlns="http://corteos.ru">
+         <GetSimpleReserveByIdResult id_Reserve="1757768" id_ComplexReserve="757895" ComplexReserveName="Санкт-Петербург" Locator="125339792" Price="1261.3" Header="Петрозаводск - Санкт-Петербург" Brief="ЛАСТОЧКА - 803Ч, Сидячий, 2С" OrderTypeName="Rail" id_ReserveType="2" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="697" id_ReserveState="5" ReserveStateName="finished" DateCreate="2019-06-26T17:36:18.787">
+            <id_PayerOrganization>68</id_PayerOrganization>
+            <OrderSpecificData>
+               <OrderContainer id_System="1" id_Order="42132990" id_RootTransaction="125339792" xmlns="">
+                  <OrderItems>
+                     <OrderItem SegmentType="1" TrainName="ЛАСТОЧКА" WidgetTrainName="ЛАСТОЧКА" TrainNumber="803Ч" TrainNumberForCustomer="803ЧА" TrainCathegory="1" TrainDepartureStationCode="2004300" TrainArrivalStationCode="2004006" TrainDepartureStationName="ПЕТРОЗАВОД" TrainArrivalStationName="С-ПЕТ-ЛАД" PassengerDepartureStationCode="2004300" PassengerArrivalStationCode="2004006" PassengerDepartureStationName="ПЕТРОЗАВОДСК-ПАСС" PassengerArrivalStationName="САНКТ-ПЕТЕРБУРГ ЛАДОЖ." AllowEreg="true" ServiceClass="2С" FareName="С" Carrier="ФПК СЕВ-ЗАПАДНЫЙ" ServiceFee="0" IsTwoStorey="false" IsSuburbanTrain="false" IsDoubleSeatsPrice="false" IsQuadroSeatsPrice="false" id_System="1" id_Order="42132990" id_Transaction="125339792" ReservationDate="2019-06-27T09:47:00" IsPossibleThreeHoursReservation="false" ConfirmTimeLimit="2019-06-27T10:02:56" ConfirmTime="27.06.2019 10:02:56" CarNumber="2" GenderType="2" TStatus="0" LowestPriceForCurrentTrain="1261.3" LowestPriceForCurrentFareAndTrain="1261.3" LowestPriceForCurrentFare="1261.3" LowestPriceForWholeResult="1255.8">
+                        <UfsDateContainer Date="2019-07-30T06:36:00" DateOffset="2019-07-30T06:36:00+03:00" DateType="0" LocalDate="0001-01-01T00:00:00" ArrivalDate="2019-07-30T12:00:00" ArrivalDateOffset="2019-07-30T12:00:00+03:00" ArrivalDateType="0" LocalArrivalDate="0001-01-01T00:00:00"/>
+                        <Places>
+                           <Place>99</Place>
+                        </Places>
+                        <SpecialTravelTermsNotification/>
+                        <Сonditions/>
+                        <Blanks>
+                           <OrderBlank id_Transaction="125339792" id_Blank="99359837" TicketNumber="75296742135503" Amount="1261.3" PlaceString="099" EReg="1" RzhdStatus="1" PlaceTier="" PlaceTierDescription="" Storey="0" IsNonRefundableTariff="false">
+                              <PriceCathegory>ПОЛНЫЙ</PriceCathegory>
+                              <Passengers>
+                                 <OrderBlankPassenger FirstName="МАКСИМ" LastName="ТАРАНЕНКО" MiddleName="-" UfsDocumentType="ЗП" DocumentNumber="123456789" Birthday="1980-01-01T00:00:00"/>
+                              </Passengers>
+                              <OrderBlankRefundInfo Stan="" RefundDate="0001-01-01T00:00:00" Amount="0"/>
+                           </OrderBlank>
+                        </Blanks>
+                     </OrderItem>
+                  </OrderItems>
+               </OrderContainer>
+            </OrderSpecificData>
+            <MostCheapVariant>
+               <NotAvailable xmlns=""/>
+            </MostCheapVariant>
+            <MostExpensiveVariant>
+               <NotAvailable xmlns=""/>
+            </MostExpensiveVariant>
+            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="Соколинина" FirstName="Мариночка"/>
+            <ServiceTeam>
+               <id_ServiceTeam>697</id_ServiceTeam>
+               <Name>Т2 тестирование</Name>
+            </ServiceTeam>
+            <Codes/>
+            <Passengers>
+               <StablePassenger>
+                  <id_Passenger>2086616</id_Passenger>
+                  <id_Person>10786</id_Person>
+                  <FirstName>Максим</FirstName>
+                  <LastName>Тараненко</LastName>
+                  <FirstNameLatin>Max</FirstNameLatin>
+                  <LastNameLatin>Taranenko</LastNameLatin>
+                  <SurName/>
+                  <DocumentType>ForeignPassport</DocumentType>
+                  <DocumentNumber>123456789</DocumentNumber>
+                  <id_Document>621848</id_Document>
+                  <id_MileCard xsi:nil="true"/>
+                  <Codes/>
+               </StablePassenger>
+            </Passengers>
+            <Violations>
+               <StablePolicyViolation>
+                  <id_Violation>240057</id_Violation>
+                  <id_Policy>2334</id_Policy>
+                  <TravelPolicyName>сапсан</TravelPolicyName>
+                  <ViolationTextEnglish>TrainFareTypeRule: The car cathegory is forbidden by travel policy (Тараненко Максим)</ViolationTextEnglish>
+                  <ViolationTextRussian>TrainFareTypeRule: Данный тип вагона запрещен тревел-политикой (Тараненко Максим)</ViolationTextRussian>
+               </StablePolicyViolation>
+            </Violations>
+            <Files>
+               <StableFile>
+                  <id_File>3039486</id_File>
+                  <Caption>ПЕТРОЗАВОДСК - САНКТ-ПЕТЕРБУРГ ЛАДОЖ., 30.07.2019; Максим Тараненко: №75296742135503</Caption>
+                  <Url>https://static.corteos.ru/2019-6/1757768/d48272de-5afd-4a21-97b8-006b74d45087/Eticket-125339792-99359837-ereg.pdf?t=636972256938087581</Url>
+                  <IsTravelDocument>true</IsTravelDocument>
+                  <TicketNumber>75296742135503</TicketNumber>
+                  <id_User>113</id_User>
+               </StableFile>
+            </Files>
+            <Payer>
+               <id_PayerOrganization>68</id_PayerOrganization>
+               <INN>7799521829</INN>
+               <KPP>779901001</KPP>
+            </Payer>
+            <ComplexReserveReference id_ComplexReserve="757895" Name="Санкт-Петербург" id_ClientCreator="113" CreationDate="2019-06-26T17:36:03.17" CurrentState="Finished">
+               <Codes>
+                  <StableCode>
+                     <id_MetaCode>116</id_MetaCode>
+                     <id_MetaDictionary>102</id_MetaDictionary>
+                     <CodeValue>SWR</CodeValue>
+                     <CodeName>Мечник</CodeName>
+                     <DictionaryName>Должность</DictionaryName>
+                     <DictionaryType>StructuralPersonal</DictionaryType>
+                  </StableCode>
+                  <StableCode>
+                     <id_MetaCode>164</id_MetaCode>
+                     <id_MetaDictionary>110</id_MetaDictionary>
+                     <CodeValue>Y</CodeValue>
+                     <CodeName>Да</CodeName>
+                     <DictionaryName>Начальник</DictionaryName>
+                     <DictionaryType>StructuralPersonal</DictionaryType>
+                  </StableCode>
+               </Codes>
+            </ComplexReserveReference>
+         </GetSimpleReserveByIdResult>
+      </GetSimpleReserveByIdResponse>
+   </soap:Body>
+</soap:Envelope>
