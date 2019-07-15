@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://www.corteos.ru/">
+   <soapenv:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>a1b2e9c8-****-****-a005-ecdc67a07556</cor:Token>
+      </cor:AuthHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cor:GetReservationDetails>
+         <cor:id_Reserve>0</cor:id_Reserve>
+         <cor:id_ComplexReserve>757895</cor:id_ComplexReserve>
+      </cor:GetReservationDetails>
+   </soapenv:Body>
+</soapenv:Envelope>
