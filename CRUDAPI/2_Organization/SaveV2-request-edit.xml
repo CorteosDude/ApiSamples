@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://corteos.ru">
+   <soapenv:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>***REMOVED***</cor:Token>
+      </cor:AuthHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:organization deleted="false" id_Group="63">
+            <cor:DateCreate>2019-07-16T22:27:27.333</cor:DateCreate>
+            <cor:DateChanged>2019-07-16T22:27:27.333</cor:DateChanged>
+            <id_Organization>11946</id_Organization>
+            <!--Optional:-->
+            <cor:Name>Моя Организация</cor:Name>
+            <!--Optional:-->
+            <cor:INN>32452345</cor:INN>
+            <!--Optional:-->
+            <cor:KPP>23452345</cor:KPP>
+            <!--Optional:-->
+            <cor:LegalAdress>Москва кремль</cor:LegalAdress>
+            <!--Optional:-->
+            <cor:Phone>+7(234) 532-45-23</cor:Phone>
+         </cor:organization>
+      </cor:SaveV2>
+   </soapenv:Body>
+</soapenv:Envelope>
