@@ -1,0 +1,39 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-16T22:15:02.1410246+03:00" SessionID="64DHQ6" IP="77.66.176.236" WebSite="https://jv3.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <Organization deleted="false" id_Group="63">
+                  <DateCreate>2014-09-29T15:57:06.543</DateCreate>
+                  <DateChanged>2018-05-07T20:26:25.133</DateChanged>
+                  <id_Organization>2682</id_Organization>
+                  <Name>dsfgdsfg111</Name>
+                  <INN>32452345</INN>
+                  <KPP>23452345</KPP>
+                  <Phone>+7(234) 532-45-23</Phone>
+               </Organization>
+               <Organization deleted="false" id_Group="63">
+                  <DateCreate>2014-04-16T10:48:39.757</DateCreate>
+                  <DateChanged>2016-08-30T10:31:21.703</DateChanged>
+                  <id_Organization>1547</id_Organization>
+                  <Name>new org</Name>
+                  <INN>1234567890</INN>
+                  <KPP>12345678</KPP>
+                  <Phone>+7(234) 234-23-43</Phone>
+               </Organization>
+               <Organization deleted="false" id_Group="63">
+                  <DateCreate>2014-04-16T10:53:51.87</DateCreate>
+                  <DateChanged>2016-08-30T10:31:21.717</DateChanged>
+                  <id_Organization>1548</id_Organization>
+                  <Name>New Organization 2</Name>
+                  <INN>123345657890</INN>
+                  <KPP>653465</KPP>
+                  <Phone>+7(454) 545-45-45</Phone>
+               </Organization>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

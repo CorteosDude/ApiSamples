@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://corteos.ru">
+   <soapenv:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>337143c6-ef7b-45a2-8695-3aaab1697f5e</cor:Token>
+      </cor:AuthHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cor:DeleteV2>
+         <cor:id>11946</cor:id>
+      </cor:DeleteV2>
+   </soapenv:Body>
+</soapenv:Envelope>
