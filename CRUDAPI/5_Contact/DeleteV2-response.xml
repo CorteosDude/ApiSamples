@@ -7,7 +7,7 @@
             <ResponseDetails deleted="true" id_Person="216" id_ContactType="3" Content="super_maxim@taranenko.com">
                <DateCreate>2019-07-16T19:52:35.43</DateCreate>
                <DateChanged>2019-07-16T19:55:01.42</DateChanged>
-               <id_Contact>718979</id_Contact>
+               <id_Contact>718979</id_Contact> 
             </ResponseDetails>
          </DeleteV2Result>
       </DeleteV2Response>
