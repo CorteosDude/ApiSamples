@@ -2,7 +2,7 @@
    <soapenv:Header>
       <cor:AuthHeader>
          <!--Optional:-->
-         <cor:Token>***REMOVED***</cor:Token>
+         <cor:Token>337143c6-****-****-8695-3aaab1697f5e</cor:Token>
       </cor:AuthHeader>
    </soapenv:Header>
    <soapenv:Body>
