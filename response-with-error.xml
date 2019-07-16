@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-16T19:45:11.6661785+03:00" SessionID="4GS7UU" IP="212.233.125.182" WebSite="https://demo.corteos.ru"/>
+            <Errors>
+               <UniversalApiError Type="AccessRightsException" Text="Для проведения операции необходимо получить контекст пользователя при помощи AgreementManagement/EnterAgreement"/>
+            </Errors>
+            <ResponseDetails/>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

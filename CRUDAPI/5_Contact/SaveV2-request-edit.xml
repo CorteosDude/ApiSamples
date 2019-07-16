@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>5cfcdb30-****-****-a2fa-2e360c455249</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:contact deleted="0" id_Person="216" id_ContactType="3" Content="super_maxim@taranenko.com">
+            <cor:id_Contact>718979</cor:id_Contact>
+         </cor:contact>
+      </cor:SaveV2>
+   </soap:Body>
+</soap:Envelope>
