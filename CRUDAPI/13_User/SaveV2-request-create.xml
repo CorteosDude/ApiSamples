@@ -1,0 +1,21 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>a47be2e4-****-****-831f-9603afcfa913</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:user deleted="false" Email="marina-super@elmotest.ru" IsBlocked="false" Password="test-password" id_Person="80740" id_Group="63" id_Role="3" TimeZone="3">
+            <!--Optional:-->
+            <cor:ExtensionData/>
+            <!--Optional:-->
+            <cor:Language>RU</cor:Language>
+            <!--Optional:-->
+            <cor:OuterId>test outer</cor:OuterId>
+         </cor:user>
+      </cor:SaveV2>
+   </soap:Body>
+</soap:Envelope>

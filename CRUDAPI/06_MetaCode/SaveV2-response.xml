@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <SaveV2Response xmlns="http://corteos.ru">
+         <SaveV2Result>
+            <Trace ResponseDate="2019-07-17T23:14:50.6092132+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="false">
+               <DateCreate>2019-07-17T23:14:50.61</DateCreate>
+               <DateChanged>2019-07-17T23:14:50.61</DateChanged>
+               <id_Group>63</id_Group>
+               <id_MetaCode>218562</id_MetaCode>
+               <Name>Тестовый код</Name>
+               <NameLatin>Testing code</NameLatin>
+               <Tag>Test tag</Tag>
+               <CodeValue>Code value</CodeValue>
+               <id_MetaDictionary>101</id_MetaDictionary>
+               <id_MetaDictionaryType>1</id_MetaDictionaryType>
+               <SelectorMode>1</SelectorMode>
+               <DictionaryName>Степень</DictionaryName>
+               <DictionaryNameLatin>Grade</DictionaryNameLatin>
+            </ResponseDetails>
+         </SaveV2Result>
+      </SaveV2Response>
+   </soap:Body>
+</soap:Envelope>

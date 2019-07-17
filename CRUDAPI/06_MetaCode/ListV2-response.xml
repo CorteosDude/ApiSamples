@@ -1,0 +1,40 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-17T23:08:53.1856071+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <SimpleMetaCode deleted="false">
+                  <DateCreate>2018-07-12T11:56:06.037</DateCreate>
+                  <DateChanged>2018-12-18T16:28:34.873</DateChanged>
+                  <id_Group>63</id_Group>
+                  <id_MetaCode>112</id_MetaCode>
+                  <Name>Низкая токсичность</Name>
+                  <NameLatin>Low toxicity</NameLatin>
+                  <CodeValue>LT</CodeValue>
+                  <id_MetaDictionary>101</id_MetaDictionary>
+                  <id_MetaDictionaryType>1</id_MetaDictionaryType>
+                  <SelectorMode>1</SelectorMode>
+                  <DictionaryName>Степень</DictionaryName>
+                  <DictionaryNameLatin>Grade</DictionaryNameLatin>
+               </SimpleMetaCode>
+               <SimpleMetaCode deleted="false">
+                  <DateCreate>2018-07-12T11:57:01.66</DateCreate>
+                  <DateChanged>2018-12-18T16:28:35.31</DateChanged>
+                  <id_Group>63</id_Group>
+                  <id_MetaCode>113</id_MetaCode>
+                  <Name>Высокая токсичность</Name>
+                  <NameLatin>High toxicity</NameLatin>
+                  <CodeValue>HT</CodeValue>
+                  <id_MetaDictionary>101</id_MetaDictionary>
+                  <id_MetaDictionaryType>1</id_MetaDictionaryType>
+                  <SelectorMode>1</SelectorMode>
+                  <DictionaryName>Степень</DictionaryName>
+                  <DictionaryNameLatin>Grade</DictionaryNameLatin>
+               </SimpleMetaCode>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

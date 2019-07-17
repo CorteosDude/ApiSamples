@@ -1,0 +1,47 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-17T23:22:35.1013266+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <MileCard deleted="false" id_Person="216" Number="223" AirlineCode="KM">
+                  <DateCreate>2015-04-29T20:29:15.693</DateCreate>
+                  <DateChanged>2019-02-18T16:37:37.97</DateChanged>
+                  <id_Card>9184</id_Card>
+               </MileCard>
+               <MileCard deleted="false" id_Person="216" Number="111" AirlineCode="SU">
+                  <DateCreate>2017-12-11T20:09:26.323</DateCreate>
+                  <DateChanged>2019-02-18T16:37:41.92</DateChanged>
+                  <id_Card>33651</id_Card>
+               </MileCard>
+               <MileCard deleted="false" id_Person="216" Number="3546845" AirlineCode="A3">
+                  <DateCreate>2018-04-04T16:19:12.41</DateCreate>
+                  <DateChanged>2019-02-18T16:37:45.94</DateChanged>
+                  <id_Card>37747</id_Card>
+               </MileCard>
+               <MileCard deleted="false" id_Person="216" Number="1245" AirlineCode="A3">
+                  <DateCreate>2018-07-12T13:35:14.54</DateCreate>
+                  <DateChanged>2019-02-18T16:37:52.32</DateChanged>
+                  <id_Card>40173</id_Card>
+               </MileCard>
+               <MileCard deleted="false" id_Person="216" Number="332211" AirlineCode="SU">
+                  <DateCreate>2018-09-13T18:11:10.59</DateCreate>
+                  <DateChanged>2019-02-18T16:37:55.507</DateChanged>
+                  <id_Card>42370</id_Card>
+               </MileCard>
+               <MileCard deleted="false" id_Person="216" Number="XXXVАБ123123" AirlineCode="RzhdB">
+                  <DateCreate>2019-03-28T15:47:58.45</DateCreate>
+                  <DateChanged>2019-03-28T15:48:16.533</DateChanged>
+                  <id_Card>45830</id_Card>
+               </MileCard>
+               <MileCard deleted="false" id_Person="216" Number="11111" AirlineCode="A3">
+                  <DateCreate>2019-06-06T14:27:22.267</DateCreate>
+                  <DateChanged>2019-06-06T14:27:22.267</DateChanged>
+                  <id_Card>45844</id_Card>
+               </MileCard>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

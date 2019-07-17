@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <DeleteV2Response xmlns="http://corteos.ru">
+         <DeleteV2Result>
+            <Trace ResponseDate="2019-07-17T23:50:29.4593792+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="true" LastName="Иванов" FirstName="Иван" SurName="Иванович" SurNameLatin="Ivanovich" LastNameLatin="Ivanov" FirstNameLatin="Ivan" id_Country="245" Gender="true" id_Group="63">
+               <DateCreate>2019-07-17T23:46:48.28</DateCreate>
+               <DateChanged>2019-07-17T23:50:29.61</DateChanged>
+               <id_Person>918073</id_Person>
+               <Comment>super comment</Comment>
+               <id_Organization>63</id_Organization>
+               <DateBirth>2008-10-11T00:00:00</DateBirth>
+               <id_ClientCreator>113</id_ClientCreator>
+               <PhotoUrl>google.com/logo.png</PhotoUrl>
+            </ResponseDetails>
+         </DeleteV2Result>
+      </DeleteV2Response>
+   </soap:Body>
+</soap:Envelope>

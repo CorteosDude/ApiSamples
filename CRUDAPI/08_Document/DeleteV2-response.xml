@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <DeleteV2Response xmlns="http://corteos.ru">
+         <DeleteV2Result>
+            <Trace ResponseDate="2019-07-17T23:01:33.4324345+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="true" id_Person="216" id_DocumentType="2" Number="113456789">
+               <DateCreate>2019-07-17T23:00:45.673</DateCreate>
+               <DateChanged>2019-07-17T23:01:33.43</DateChanged>
+               <id_Document>621877</id_Document>
+               <id_Country>245</id_Country>
+               <DateGiven>2018-04-11T15:13:15.467</DateGiven>
+               <DateValid>2026-04-12T00:00:00</DateValid>
+               <DocumentType>ForeignPassport</DocumentType>
+            </ResponseDetails>
+         </DeleteV2Result>
+      </DeleteV2Response>
+   </soap:Body>
+</soap:Envelope>

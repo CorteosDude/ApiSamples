@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>a47be2e4-****-****-831f-9603afcfa913</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:person deleted="false" LastName="Иванов" FirstName="Иван" SurName="Иванович" SurNameLatin="Ivanovich" LastNameLatin="Ivanov" FirstNameLatin="Ivan" id_Country="245" Gender="true" id_Group="63">
+            <!--Optional:-->
+            <cor:Comment>test comment</cor:Comment>
+            <cor:id_Organization>63</cor:id_Organization>
+            <cor:DateBirth>2008-10-11T00:00:00</cor:DateBirth>
+            <cor:id_ClientCreator>611423</cor:id_ClientCreator>
+            <!--Optional:-->
+            <cor:PhotoUrl>google.com/logo.png</cor:PhotoUrl>
+         </cor:person>
+      </cor:SaveV2>
+   </soap:Body>
+</soap:Envelope>

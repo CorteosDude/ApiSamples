@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetV2Response xmlns="http://corteos.ru">
+         <GetV2Result>
+            <Trace ResponseDate="2019-07-17T23:41:28.4976785+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="false" LastName="" FirstName="" SurName="" SurNameLatin="" LastNameLatin="Holod" FirstNameLatin="Sergei" id_Country="245" Gender="true" id_Group="63">
+               <DateCreate>2017-10-19T19:23:03.243</DateCreate>
+               <DateChanged>2019-02-18T16:21:06.137</DateChanged>
+               <id_Person>611423</id_Person>
+               <id_Organization xsi:nil="true"/>
+               <DateBirth>2008-10-11T00:00:00</DateBirth>
+               <id_ClientCreator xsi:nil="true"/>
+            </ResponseDetails>
+         </GetV2Result>
+      </GetV2Response>
+   </soap:Body>
+</soap:Envelope>

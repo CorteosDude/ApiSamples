@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>a47be2e4-****-****-831f-9603afcfa913</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:document deleted="false" id_Person="216" id_DocumentType="2" Number="113456789">
+            <cor:id_Country>245</cor:id_Country>
+            <cor:DateGiven>2018-04-11T15:13:15.467</cor:DateGiven>
+            <cor:DateValid>2026-04-12T00:00:00</cor:DateValid>
+            <cor:DocumentType>ForeignPassport</cor:DocumentType>
+         </cor:document>
+      </cor:SaveV2>
+   </soap:Body>
+</soap:Envelope>

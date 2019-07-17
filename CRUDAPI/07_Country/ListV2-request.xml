@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://corteos.ru">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cor:ListV2/>
+   </soapenv:Body>
+</soapenv:Envelope>

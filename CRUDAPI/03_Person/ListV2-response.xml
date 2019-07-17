@@ -1,0 +1,52 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result TotalNumberOfElements="495" Skip="0" Take="5">
+            <Trace ResponseDate="2019-07-17T23:40:02.573209+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <Person deleted="false" LastName="" FirstName="" SurName="" SurNameLatin="" LastNameLatin="Repin" FirstNameLatin="Petr" id_Country="245" Gender="true" id_Group="63">
+                  <DateCreate>2017-09-22T18:09:44.24</DateCreate>
+                  <DateChanged>2019-02-18T16:21:10.577</DateChanged>
+                  <id_Person>599271</id_Person>
+                  <id_Organization xsi:nil="true"/>
+                  <DateBirth>2008-04-11T00:00:00</DateBirth>
+                  <id_ClientCreator xsi:nil="true"/>
+               </Person>
+               <Person deleted="false" LastName="" FirstName="" SurName="" SurNameLatin="" LastNameLatin="Holod" FirstNameLatin="Sergei" id_Country="245" Gender="true" id_Group="63">
+                  <DateCreate>2017-10-19T19:23:03.243</DateCreate>
+                  <DateChanged>2019-02-18T16:21:06.137</DateChanged>
+                  <id_Person>611423</id_Person>
+                  <id_Organization xsi:nil="true"/>
+                  <DateBirth>2008-10-11T00:00:00</DateBirth>
+                  <id_ClientCreator xsi:nil="true"/>
+               </Person>
+               <Person deleted="false" LastName="" FirstName="" SurName="" SurNameLatin="" LastNameLatin="Dernov" FirstNameLatin="Ivan" id_Country="245" Gender="true" id_Group="63">
+                  <DateCreate>2018-01-09T19:31:37.863</DateCreate>
+                  <DateChanged>2019-02-18T16:20:53.663</DateChanged>
+                  <id_Person>658176</id_Person>
+                  <id_Organization xsi:nil="true"/>
+                  <DateBirth>1901-01-01T00:00:00</DateBirth>
+                  <id_ClientCreator xsi:nil="true"/>
+               </Person>
+               <Person deleted="false" LastName="" FirstName="" SurName="" SurNameLatin="" LastNameLatin="Dernova" FirstNameLatin="Anna" id_Country="245" Gender="false" id_Group="63">
+                  <DateCreate>2018-01-09T19:31:53.693</DateCreate>
+                  <DateChanged>2019-02-18T16:20:54.587</DateChanged>
+                  <id_Person>658177</id_Person>
+                  <id_Organization xsi:nil="true"/>
+                  <DateBirth>1901-01-01T00:00:00</DateBirth>
+                  <id_ClientCreator xsi:nil="true"/>
+               </Person>
+               <Person deleted="false" LastName="" FirstName="" SurName="" SurNameLatin="" LastNameLatin="Dernov" FirstNameLatin="Artem" id_Country="245" Gender="true" id_Group="63">
+                  <DateCreate>2018-01-09T19:32:27.03</DateCreate>
+                  <DateChanged>2019-02-18T16:20:52.803</DateChanged>
+                  <id_Person>658178</id_Person>
+                  <id_Organization xsi:nil="true"/>
+                  <DateBirth>2008-09-11T00:00:00</DateBirth>
+                  <id_ClientCreator xsi:nil="true"/>
+               </Person>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

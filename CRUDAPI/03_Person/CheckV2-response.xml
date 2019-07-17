@@ -1,0 +1,10 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <CheckV2Response xmlns="http://corteos.ru">
+         <CheckV2Result>
+            <Trace ResponseDate="2019-07-17T23:56:55.1054352+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+         </CheckV2Result>
+      </CheckV2Response>
+   </soap:Body>
+</soap:Envelope>

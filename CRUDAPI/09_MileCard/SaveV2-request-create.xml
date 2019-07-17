@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>a47be2e4-****-****-831f-9603afcfa913</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:mileCard deleted="false" id_Person="216" Number="111" AirlineCode="SU">
+            <!--Optional:-->
+            <cor:OuterId>testid</cor:OuterId>
+         </cor:mileCard>
+      </cor:SaveV2>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://corteos.ru">
+   <soapenv:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>a47be2e4-****-****-831f-9603afcfa913</cor:Token>
+      </cor:AuthHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:obj deleted="false">
+            <cor:id_Group>63</cor:id_Group>
+            <id_MetaCode>112</id_MetaCode>
+            <!--Optional:-->
+            <cor:Name>Низкая токсичность</cor:Name>
+            <!--Optional:-->
+            <cor:NameLatin>Low toxicity</cor:NameLatin>
+            <!--Optional:-->
+            <cor:CodeValue>LT</cor:CodeValue>
+            <cor:id_MetaDictionary>101</cor:id_MetaDictionary>
+            <cor:id_MetaDictionaryType>1</cor:id_MetaDictionaryType>
+            <cor:SelectorMode>1</cor:SelectorMode>
+         </cor:obj>
+      </cor:SaveV2>
+   </soapenv:Body>
+</soapenv:Envelope>
