@@ -1,0 +1,48 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-18T00:22:56.2465016+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <SimpleMetaDictionary deleted="false">
+                  <DateCreate>2018-07-12T11:51:02.157</DateCreate>
+                  <DateChanged>2019-07-05T17:04:19.927</DateChanged>
+                  <id_MetaDictionary>99</id_MetaDictionary>
+                  <id_RealMetaDictionary>98</id_RealMetaDictionary>
+                  <id_MetaDictionaryType>1</id_MetaDictionaryType>
+                  <id_BindingType>0</id_BindingType>
+                  <Name>На какую улицу едем из Питера</Name>
+                  <NameLatin>Street departing from Piter</NameLatin>
+                  <id_Group>63</id_Group>
+                  <SelectorMode>2</SelectorMode>
+                  <SequenceNumber>0</SequenceNumber>
+                  <ValidationRegex>[string?]</ValidationRegex>
+                  <ValidationText>[string?]</ValidationText>
+                  <ValidationTextLatin>[string?]</ValidationTextLatin>
+                  <Comment>еще комментарий</Comment>
+                  <BindingType>Complex</BindingType>
+                  <Selector>Dropdown</Selector>
+                  <DictionaryType>Budget</DictionaryType>
+               </SimpleMetaDictionary>
+               <SimpleMetaDictionary deleted="false">
+                  <DateCreate>2018-07-12T11:52:39.767</DateCreate>
+                  <DateChanged>2019-02-14T10:06:30.933</DateChanged>
+                  <id_MetaDictionary>100</id_MetaDictionary>
+                  <id_RealMetaDictionary xsi:nil="true"/>
+                  <id_MetaDictionaryType>1</id_MetaDictionaryType>
+                  <id_BindingType>1</id_BindingType>
+                  <Name>Авиационный препарат</Name>
+                  <NameLatin>Aviaprep</NameLatin>
+                  <id_Group>63</id_Group>
+                  <SelectorMode>2</SelectorMode>
+                  <SequenceNumber>0</SequenceNumber>
+                  <BindingType>Reserve</BindingType>
+                  <Selector>Dropdown</Selector>
+                  <DictionaryType>Budget</DictionaryType>
+               </SimpleMetaDictionary>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>
