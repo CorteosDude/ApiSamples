@@ -1,0 +1,36 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-18T21:15:49.5383631+03:00" SessionID="B3ZNV9" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <Relation>
+                  <id_Relation xsi:nil="true"/>
+                  <id_Slave>101</id_Slave>
+                  <id_Master>3423</id_Master>
+                  <deleted>true</deleted>
+                  <SlaveName>Степень</SlaveName>
+                  <MasterName>Testeete</MasterName>
+               </Relation>
+               <Relation>
+                  <id_Relation xsi:nil="true"/>
+                  <id_Slave>101</id_Slave>
+                  <id_Master>11947</id_Master>
+                  <deleted>true</deleted>
+                  <SlaveName>Степень</SlaveName>
+                  <MasterName>Моя Организация</MasterName>
+               </Relation>
+               <Relation>
+                  <id_Relation xsi:nil="true"/>
+                  <id_Slave>101</id_Slave>
+                  <id_Master>9497</id_Master>
+                  <deleted>true</deleted>
+                  <SlaveName>Степень</SlaveName>
+                  <MasterName>Тестовая Организация Глеба</MasterName>
+               </Relation>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

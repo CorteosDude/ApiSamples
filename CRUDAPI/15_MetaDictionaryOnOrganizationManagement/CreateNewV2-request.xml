@@ -6,8 +6,9 @@
       </cor:AuthHeader>
    </soap:Header>
    <soap:Body>
-      <cor:DeleteV2>
-         <cor:id_Relation>1523</cor:id_Relation>
-      </cor:DeleteV2>
+      <cor:CreateNew>
+         <cor:id_Organization>3423</cor:id_Organization>
+         <cor:id_MetaDictionary>101</cor:id_MetaDictionary>
+      </cor:CreateNew>
    </soap:Body>
 </soap:Envelope>

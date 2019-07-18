@@ -2,7 +2,7 @@
    <soap:Header>
       <cor:AuthHeader>
          <!--Optional:-->
-         <cor:Token>7e75cf0b-a409-48c8-abfd-f466ca0b0687</cor:Token>
+         <cor:Token>7e75cf0b-****-****-abfd-f466ca0b0687</cor:Token>
       </cor:AuthHeader>
    </soap:Header>
    <soap:Body>

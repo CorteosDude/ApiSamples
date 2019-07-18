@@ -7,7 +7,7 @@
    </soap:Header>
    <soap:Body>
       <cor:DeleteV2>
-         <cor:id_Relation>1523</cor:id_Relation>
+         <cor:id_Relation>1950</cor:id_Relation>
       </cor:DeleteV2>
    </soap:Body>
 </soap:Envelope>
