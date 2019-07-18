@@ -1,0 +1,27 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <DeleteV2Response xmlns="http://corteos.ru">
+         <DeleteV2Result>
+            <Trace ResponseDate="2019-07-18T20:40:02.1372255+03:00" SessionID="9GG027" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="true">
+               <DateCreate>2019-07-18T20:35:59.75</DateCreate>
+               <DateChanged>2019-07-18T20:35:59.75</DateChanged>
+               <ExtensionData/>
+               <id_Agreement>7149</id_Agreement>
+               <Title>test group</Title>
+               <id_CustomerGroup>7751</id_CustomerGroup>
+               <id_ProviderGroup>1</id_ProviderGroup>
+               <IsCustomerApproved>true</IsCustomerApproved>
+               <IsSupplierApproved>true</IsSupplierApproved>
+               <id_ServiceTeam>688</id_ServiceTeam>
+               <IsTest>false</IsTest>
+               <LimitDate xsi:nil="true"/>
+               <ProviderName>Demo Agency</ProviderName>
+               <ProviderGUID>5F158604-9B84-4B0F-AFDC-86EF71068FD1</ProviderGUID>
+               <CustomerName>test group</CustomerName>
+            </ResponseDetails>
+         </DeleteV2Result>
+      </DeleteV2Response>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,27 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>55cea025-****-****-9960-a06f20a183a8</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:CreateNewV2>
+         <!--Optional:-->
+         <cor:request>
+           <!--Optional:-->
+            <cor:GroupName>test group</cor:GroupName>
+            <!--Optional:-->
+            <cor:OrganizationName>my org</cor:OrganizationName>
+            <!--Optional:-->
+            <cor:OrganizationINN>2342342342</cor:OrganizationINN>
+            <!--Optional:-->
+            <cor:OrganizationKPP>234234234234</cor:OrganizationKPP>
+            <!--Optional:-->
+           <cor:OrganizationPhone>02</cor:OrganizationPhone>
+            <cor:CreditLine>5555</cor:CreditLine>
+            <cor:CreditLineWarningValue>4444</cor:CreditLineWarningValue>
+         </cor:request>
+      </cor:CreateNewV2>
+   </soap:Body>
+</soap:Envelope>

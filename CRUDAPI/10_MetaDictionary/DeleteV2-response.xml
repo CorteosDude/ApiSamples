@@ -1,0 +1,31 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <DeleteV2Response xmlns="http://corteos.ru">
+         <DeleteV2Result>
+            <Trace ResponseDate="2019-07-18T20:07:08.5074371+03:00" SessionID="65CMNE" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="true">
+               <DateCreate>2019-07-18T20:05:35.503</DateCreate>
+               <DateChanged>2019-07-18T20:07:08.52</DateChanged>
+               <id_MetaDictionary>324</id_MetaDictionary>
+               <id_RealMetaDictionary xsi:nil="true"/>
+               <id_MetaDictionaryType>1</id_MetaDictionaryType>
+               <id_BindingType>1</id_BindingType>
+               <Name>Тестовый словарь</Name>
+               <NameLatin>Test dictionary</NameLatin>
+               <id_Group>63</id_Group>
+               <Tag>test tag</Tag>
+               <SelectorMode>2</SelectorMode>
+               <SequenceNumber>0</SequenceNumber>
+               <ValidationRegex/>
+               <ValidationText/>
+               <ValidationTextLatin/>
+               <Comment>test comment</Comment>
+               <BindingType>Reserve</BindingType>
+               <Selector>Dropdown</Selector>
+               <DictionaryType>Budget</DictionaryType>
+            </ResponseDetails>
+         </DeleteV2Result>
+      </DeleteV2Response>
+   </soap:Body>
+</soap:Envelope>

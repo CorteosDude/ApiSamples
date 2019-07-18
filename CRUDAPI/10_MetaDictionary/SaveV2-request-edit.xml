@@ -1,0 +1,35 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>881b8fa8-****-****-b3ad-3b1446c42f94</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:SaveV2>
+         <!--Optional:-->
+         <cor:obj deleted="false">
+          <id_MetaDictionary>323</id_MetaDictionary>
+            <cor:id_MetaDictionaryType>1</cor:id_MetaDictionaryType>
+            <cor:id_BindingType>1</cor:id_BindingType>
+            <!--Optional:-->
+            <cor:Name>Тестовый словарь</cor:Name>
+            <!--Optional:-->
+            <cor:NameLatin>Test dictionary</cor:NameLatin>
+            <cor:id_Group>63</cor:id_Group>
+            <!--Optional:-->
+            <cor:Tag>test tag</cor:Tag>
+            <cor:SelectorMode>2</cor:SelectorMode>
+            <cor:SequenceNumber>0</cor:SequenceNumber>
+            <!--Optional:-->
+            <cor:ValidationRegex></cor:ValidationRegex>
+            <!--Optional:-->
+            <cor:ValidationText></cor:ValidationText>
+            <!--Optional:-->
+            <cor:ValidationTextLatin></cor:ValidationTextLatin>
+            <!--Optional:-->
+            <cor:Comment>test comment</cor:Comment>
+         </cor:obj>
+      </cor:SaveV2>
+   </soap:Body>
+</soap:Envelope>

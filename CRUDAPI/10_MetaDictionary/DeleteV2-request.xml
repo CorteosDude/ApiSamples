@@ -6,8 +6,8 @@
       </cor:AuthHeader>
    </soap:Header>
    <soap:Body>
-      <cor:GetV2>
-         <cor:id>99</cor:id>
-      </cor:GetV2>
+      <cor:DeleteV2>
+         <cor:id>324</cor:id>
+      </cor:DeleteV2>
    </soap:Body>
 </soap:Envelope>

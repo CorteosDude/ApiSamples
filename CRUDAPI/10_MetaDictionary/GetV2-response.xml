@@ -1,22 +1,28 @@
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <soap:Body>
       <GetV2Response xmlns="http://corteos.ru">
          <GetV2Result>
-            <Trace ResponseDate="2019-07-17T23:12:30.346639+03:00" SessionID="64WCO5" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Trace ResponseDate="2019-07-18T19:52:24.6521865+03:00" SessionID="65CMNE" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
             <Errors/>
             <ResponseDetails deleted="false">
-               <DateCreate>2018-07-12T11:56:06.037</DateCreate>
-               <DateChanged>2018-12-18T16:28:34.873</DateChanged>
-               <id_Group>63</id_Group>
-               <id_MetaCode>112</id_MetaCode>
-               <Name>Низкая токсичность</Name>
-               <NameLatin>Low toxicity</NameLatin>
-               <CodeValue>LT</CodeValue>
-               <id_MetaDictionary>101</id_MetaDictionary>
+               <DateCreate>2018-07-12T11:51:02.157</DateCreate>
+               <DateChanged>2019-07-05T17:04:19.927</DateChanged>
+               <id_MetaDictionary>99</id_MetaDictionary>
+               <id_RealMetaDictionary>98</id_RealMetaDictionary>
                <id_MetaDictionaryType>1</id_MetaDictionaryType>
-               <SelectorMode>1</SelectorMode>
-               <DictionaryName>Степень</DictionaryName>
-               <DictionaryNameLatin>Grade</DictionaryNameLatin>
+               <id_BindingType>0</id_BindingType>
+               <Name>На какую улицу едем из Питера</Name>
+               <NameLatin>Street departing from Piter</NameLatin>
+               <id_Group>63</id_Group>
+               <SelectorMode>2</SelectorMode>
+               <SequenceNumber>0</SequenceNumber>
+               <ValidationRegex>[string?]</ValidationRegex>
+               <ValidationText>[string?]</ValidationText>
+               <ValidationTextLatin>[string?]</ValidationTextLatin>
+               <Comment>еще комментарий</Comment>
+               <BindingType>Complex</BindingType>
+               <Selector>Dropdown</Selector>
+               <DictionaryType>Budget</DictionaryType>
             </ResponseDetails>
          </GetV2Result>
       </GetV2Response>

@@ -2,12 +2,12 @@
    <soap:Header>
       <cor:AuthHeader>
          <!--Optional:-->
-         <cor:Token>881b8fa8-****-****-b3ad-3b1446c42f94</cor:Token>
+         <cor:Token>55cea025-****-****-9960-a06f20a183a8</cor:Token>
       </cor:AuthHeader>
    </soap:Header>
    <soap:Body>
-      <cor:GetV2>
-         <cor:id>99</cor:id>
-      </cor:GetV2>
+      <cor:DeleteV2>
+         <cor:id>7149</cor:id>
+      </cor:DeleteV2>
    </soap:Body>
 </soap:Envelope>

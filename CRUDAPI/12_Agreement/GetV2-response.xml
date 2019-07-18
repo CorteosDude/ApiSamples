@@ -1,0 +1,27 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetV2Response xmlns="http://corteos.ru">
+         <GetV2Result>
+            <Trace ResponseDate="2019-07-18T20:20:59.4353616+03:00" SessionID="7SWEQW" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails deleted="false">
+               <DateCreate>2011-10-20T15:03:48.023</DateCreate>
+               <DateChanged>2019-04-29T09:34:43.003</DateChanged>
+               <ExtensionData/>
+               <id_Agreement>41</id_Agreement>
+               <Title/>
+               <id_CustomerGroup>63</id_CustomerGroup>
+               <id_ProviderGroup>1</id_ProviderGroup>
+               <IsCustomerApproved>true</IsCustomerApproved>
+               <IsSupplierApproved>true</IsSupplierApproved>
+               <id_ServiceTeam>888</id_ServiceTeam>
+               <IsTest>false</IsTest>
+               <LimitDate>2015-11-18T00:00:00</LimitDate>
+               <ProviderName>Demo Agency</ProviderName>
+               <ProviderGUID>5F158604-9B84-4B0F-AFDC-86EF71068FD1</ProviderGUID>
+               <CustomerName>Элмо</CustomerName>
+            </ResponseDetails>
+         </GetV2Result>
+      </GetV2Response>
+   </soap:Body>
+</soap:Envelope>

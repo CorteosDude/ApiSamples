@@ -1,0 +1,61 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-18T20:19:08.7339532+03:00" SessionID="65D1EH" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <Agreement deleted="false">
+                  <DateCreate>2011-10-20T15:03:48.023</DateCreate>
+                  <DateChanged>2019-04-29T09:34:43.003</DateChanged>
+                  <ExtensionData/>
+                  <id_Agreement>41</id_Agreement>
+                  <Title/>
+                  <id_CustomerGroup>63</id_CustomerGroup>
+                  <id_ProviderGroup>1</id_ProviderGroup>
+                  <IsCustomerApproved>true</IsCustomerApproved>
+                  <IsSupplierApproved>true</IsSupplierApproved>
+                  <id_ServiceTeam>888</id_ServiceTeam>
+                  <IsTest>false</IsTest>
+                  <LimitDate>2015-11-18T00:00:00</LimitDate>
+                  <ProviderName>Demo Agency</ProviderName>
+                  <ProviderGUID>5F158604-9B84-4B0F-AFDC-86EF71068FD1</ProviderGUID>
+                  <CustomerName>Элмо</CustomerName>
+               </Agreement>
+               <Agreement deleted="false">
+                  <DateCreate>2012-01-13T15:58:52.79</DateCreate>
+                  <DateChanged>2012-10-22T19:46:09.227</DateChanged>
+                  <ExtensionData/>
+                  <id_Agreement>52</id_Agreement>
+                  <id_CustomerGroup>96</id_CustomerGroup>
+                  <id_ProviderGroup>1</id_ProviderGroup>
+                  <IsCustomerApproved>true</IsCustomerApproved>
+                  <IsSupplierApproved>true</IsSupplierApproved>
+                  <id_ServiceTeam>19</id_ServiceTeam>
+                  <IsTest>false</IsTest>
+                  <LimitDate xsi:nil="true"/>
+                  <ProviderName>Demo Agency</ProviderName>
+                  <ProviderGUID>5F158604-9B84-4B0F-AFDC-86EF71068FD1</ProviderGUID>
+                  <CustomerName>Ru-site</CustomerName>
+               </Agreement>
+               <Agreement deleted="false">
+                  <DateCreate>2012-01-16T13:00:44.387</DateCreate>
+                  <DateChanged>2018-03-01T11:31:38.91</DateChanged>
+                  <ExtensionData/>
+                  <id_Agreement>55</id_Agreement>
+                  <id_CustomerGroup>99</id_CustomerGroup>
+                  <id_ProviderGroup>1</id_ProviderGroup>
+                  <IsCustomerApproved>true</IsCustomerApproved>
+                  <IsSupplierApproved>true</IsSupplierApproved>
+                  <id_ServiceTeam>11</id_ServiceTeam>
+                  <IsTest>false</IsTest>
+                  <LimitDate>2017-07-19T00:00:00</LimitDate>
+                  <ProviderName>Demo Agency</ProviderName>
+                  <ProviderGUID>5F158604-9B84-4B0F-AFDC-86EF71068FD1</ProviderGUID>
+                  <CustomerName>ИП Лахов</CustomerName>
+               </Agreement>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>
