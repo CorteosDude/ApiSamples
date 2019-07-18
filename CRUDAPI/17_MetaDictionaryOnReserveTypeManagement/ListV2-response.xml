@@ -1,0 +1,28 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-18T21:38:06.4042845+03:00" SessionID="B3ZNV9" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <Relation>
+                  <id_Relation xsi:nil="true"/>
+                  <id_Slave>99</id_Slave>
+                  <id_Master>16</id_Master>
+                  <deleted>true</deleted>
+                  <SlaveName>На какую улицу едем из Питера</SlaveName>
+                  <MasterName>Трансфер-онлайн</MasterName>
+               </Relation>
+               <Relation>
+                  <id_Relation xsi:nil="true"/>
+                  <id_Slave>99</id_Slave>
+                  <id_Master>13</id_Master>
+                  <deleted>true</deleted>
+                  <SlaveName>На какую улицу едем из Питера</SlaveName>
+                  <MasterName>Билеты АэроЭкспресс</MasterName>
+               </Relation>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>

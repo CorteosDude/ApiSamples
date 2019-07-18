@@ -1,0 +1,68 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListV2Response xmlns="http://corteos.ru">
+         <ListV2Result>
+            <Trace ResponseDate="2019-07-18T21:31:02.8252605+03:00" SessionID="B3ZNV9" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <MetaCodeOnCodeDependency deleted="false">
+                  <DateCreate>2018-07-13T17:14:13.663</DateCreate>
+                  <DateChanged>2018-12-18T16:28:39.653</DateChanged>
+                  <id_Group>63</id_Group>
+                  <id_Relation>589</id_Relation>
+                  <Type>Forbid</Type>
+                  <id_MetaCode>126</id_MetaCode>
+                  <Name>Меч строгинской заточки</Name>
+                  <NameLatin>Strogino sharpened sword</NameLatin>
+                  <id_MetaDictionary>103</id_MetaDictionary>
+                  <CodeValue>STR</CodeValue>
+                  <id_MetaDictionaryType>4</id_MetaDictionaryType>
+                  <DictionaryName>Острота меча</DictionaryName>
+                  <DictionaryNameLatin>Sword sharpness</DictionaryNameLatin>
+                  <SelectorMode>2</SelectorMode>
+                  <SequenceNumber>0</SequenceNumber>
+                  <id_RealMetaCode xsi:nil="true"/>
+                  <IsReadOnly>false</IsReadOnly>
+                  <CurrentType>Forbid</CurrentType>
+                  <Policies/>
+                  <DictionaryType>ChangeableStructuralPersonal</DictionaryType>
+                  <id_MasterMetaCode>115</id_MasterMetaCode>
+                  <MasterMetaCodeValue>JAN</MasterMetaCodeValue>
+                  <MasterMetaCodeName>Дворник</MasterMetaCodeName>
+                  <MasterMetaCodeNameLatin>Janitor</MasterMetaCodeNameLatin>
+                  <MasterMetaDictionaryName>Должность</MasterMetaDictionaryName>
+                  <MasterMetaDictionaryNameLatin>Job</MasterMetaDictionaryNameLatin>
+               </MetaCodeOnCodeDependency>
+               <MetaCodeOnCodeDependency deleted="false">
+                  <DateCreate>2018-07-13T17:14:13.663</DateCreate>
+                  <DateChanged>2018-12-18T16:28:39.653</DateChanged>
+                  <id_Group>63</id_Group>
+                  <id_Relation>593</id_Relation>
+                  <Type>Allow</Type>
+                  <id_MetaCode>126</id_MetaCode>
+                  <Name>Меч строгинской заточки</Name>
+                  <NameLatin>Strogino sharpened sword</NameLatin>
+                  <id_MetaDictionary>103</id_MetaDictionary>
+                  <CodeValue>STR</CodeValue>
+                  <id_MetaDictionaryType>4</id_MetaDictionaryType>
+                  <DictionaryName>Острота меча</DictionaryName>
+                  <DictionaryNameLatin>Sword sharpness</DictionaryNameLatin>
+                  <SelectorMode>2</SelectorMode>
+                  <SequenceNumber>0</SequenceNumber>
+                  <id_RealMetaCode xsi:nil="true"/>
+                  <IsReadOnly>false</IsReadOnly>
+                  <CurrentType>Allow</CurrentType>
+                  <Policies/>
+                  <DictionaryType>ChangeableStructuralPersonal</DictionaryType>
+                  <id_MasterMetaCode>127</id_MasterMetaCode>
+                  <MasterMetaCodeValue>DEAD</MasterMetaCodeValue>
+                  <MasterMetaCodeName>Смертельно опасная</MasterMetaCodeName>
+                  <MasterMetaCodeNameLatin>Deadly</MasterMetaCodeNameLatin>
+                  <MasterMetaDictionaryName>Опасность</MasterMetaDictionaryName>
+                  <MasterMetaDictionaryNameLatin>Dangerousity</MasterMetaDictionaryNameLatin>
+               </MetaCodeOnCodeDependency>
+            </ResponseDetails>
+         </ListV2Result>
+      </ListV2Response>
+   </soap:Body>
+</soap:Envelope>
