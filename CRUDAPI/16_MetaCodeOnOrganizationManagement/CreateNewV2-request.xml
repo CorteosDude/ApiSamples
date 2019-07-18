@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+   <soap:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>7e75cf0b-a409-48c8-abfd-f466ca0b0687</cor:Token>
+      </cor:AuthHeader>
+   </soap:Header>
+   <soap:Body>
+      <cor:CreateNewV2>
+         <cor:id_Organization>2682</cor:id_Organization>
+         <cor:id_MetaCode>164</cor:id_MetaCode>
+      </cor:CreateNewV2>
+   </soap:Body>
+</soap:Envelope>
