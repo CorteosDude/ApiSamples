@@ -1,0 +1,361 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <FindSimpleReserveByLocatorResponse xmlns="http://corteos.ru">
+         <FindSimpleReserveByLocatorResult>
+            <Trace ResponseDate="2019-08-09T21:32:22.8646369+03:00" SessionID="4T61HI" IP="212.233.125.182" WebSite="https://jv3.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <StableSimpleReserve id_Reserve="1756526" id_ComplexReserve="757035" ComplexReserveName="Самара" Locator="2564401" Price="830" Header="Размещение в Самара, Россия" Brief="Дом 55" OrderTypeName="Hotel" id_ReserveType="3" id_AgentGroup="1" id_ClientGroup="7574" id_ServiceTeam="888" id_ReserveState="5" ReserveStateName="finished" DateCreate="2019-04-03T12:29:56.813">
+                  <id_PayerOrganization>11647</id_PayerOrganization>
+                  <OrderSpecificData>
+                     <BLExtendedBooking Stars="0" Latitude="53.324135" Longitude="50.315483" ProviderCode="14987" HasAirportTransfer="false" HasFitness="false" HasInternet="true" HasParking="false" HasSpa="false" HasPool="false" id_System="33" CanBeRefreshed="true" State="2" ruCityName="Самара" ruCountryName="Россия" enCityName="Samara" enCountryName="Russia" xmlns="">
+                        <StateString>Completed</StateString>
+                        <HotelName>
+                           <BS Rus="Дом 55" En="Дом 55"/>
+                        </HotelName>
+                        <NormalizedName/>
+                        <NormalizedNameEn/>
+                        <HotelAddress>
+                           <BS Rus="Россия, Самарская область, Самара, б-р. Ивана Финютина, д. 55" En="Россия, Самарская область, Самара, б-р. Ивана Финютина, д. 55"/>
+                        </HotelAddress>
+                        <Email/>
+                        <Phone>+7(846)-254-81-24</Phone>
+                        <Url/>
+                        <DefaultCheckinTime>14:00:00</DefaultCheckinTime>
+                        <DefaultCheckoutTime>12:00:00</DefaultCheckoutTime>
+                        <SpecialRemark>
+                           <BS Rus="" En=""/>
+                        </SpecialRemark>
+                        <Rooms>
+                           <ExtendedRoomDescription IsOnRequest="false" AutomaticEarlyCheckin="true" AutomaticLateCheckout="true" AutomaticMealAddition="false" HasBreakfast="false" HasInternet="false" HasBathroom="false" Is3D="false">
+                              <RoomName>
+                                 <BS Rus="эконом койко-место (Общие удобства)" En="эконом койко-место (Общие удобства)"/>
+                              </RoomName>
+                              <ProviderCode/>
+                              <AgentInformation>Комиссия агента: 0 RUB</AgentInformation>
+                              <VAT>НДС не включен</VAT>
+                              <MealName>
+                                 <BS Rus="" En=""/>
+                              </MealName>
+                              <DailyPrices/>
+                              <FreeCancelationDate>09.04.2019 00:00:00</FreeCancelationDate>
+                              <DefaultCheckInTime>14:00</DefaultCheckInTime>
+                              <DefaultCheckOutTime>12:00</DefaultCheckOutTime>
+                              <CancelationPolicies>
+                                 <ExtendedCancelationPolicy>
+                                    <DateStart/>
+                                    <DateEnd>09.04.2019 00:00:00</DateEnd>
+                                    <RefundFee ServiceFee="0" BaseRefundFee="0">0</RefundFee>
+                                    <CurrencyCode>RUB</CurrencyCode>
+                                    <HasTimeInformation>false</HasTimeInformation>
+                                 </ExtendedCancelationPolicy>
+                                 <ExtendedCancelationPolicy>
+                                    <DateStart>09.04.2019 00:00:00</DateStart>
+                                    <DateEnd/>
+                                    <RefundFee ServiceFee="0" BaseRefundFee="0">0</RefundFee>
+                                    <CurrencyCode>RUB</CurrencyCode>
+                                    <HasTimeInformation>false</HasTimeInformation>
+                                 </ExtendedCancelationPolicy>
+                              </CancelationPolicies>
+                              <BaseHotelRateAccessor id_System="33" RateCode="60682" id_Profile="5" AgencyName="Transtour" CheckInTime="14:00" CheckOutTime="12:00" Price="0">
+                                 <SystemName>AandA</SystemName>
+                                 <CheckInTime>14:00</CheckInTime>
+                                 <CheckOutTime>12:00</CheckOutTime>
+                                 <Details>
+                                    <Meal Code="0" Name="Не включен" Price="0.00">
+                                       <IncludedInPrice Code="1" Name="Да"/>
+                                    </Meal>
+                                    <HotelOfferDetail Code="60682" RoomName="эконом койко-место (Общие удобства)" RateName="" RateDescription="" NumberOfGuests="1" TotalPrice="480.00" Rackrate="500.00" TravelAgencyCommission="0.00" TravelAgencyMealCommission="0.00" PenaltySize="480.00" DeadlineDate="09.04.2019 12:00" PenaltyInfo="">
+                                       <CheckInOutTime>
+                                          <CheckIn From="00:00" To="00:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="01:00" To="01:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="02:00" To="02:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="03:00" To="03:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="04:00" To="04:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="05:00" To="05:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="06:00" To="06:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="07:00" To="07:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="08:00" To="08:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="09:00" To="09:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="10:00" To="10:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="11:00" To="11:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="12:00" To="12:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckIn From="13:00" To="13:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="12:00" To="12:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="13:00" To="13:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="14:00" To="14:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="15:00" To="15:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="16:00" To="16:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="17:00" To="17:59" Price="240.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="18:00" To="18:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="19:00" To="19:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="20:00" To="20:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="21:00" To="21:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="22:00" To="22:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                          <CheckOut From="23:00" To="23:59" Price="480.00" TravelAgencyCIOCommission="0.00"/>
+                                       </CheckInOutTime>
+                                       <Meals MealCode="">
+                                          <Meal Code="0" Name="Не включен" Price="0.00">
+                                             <IncludedInPrice Code="1" Name="Да"/>
+                                          </Meal>
+                                          <MealType Code="4" Name="завтрак"/>
+                                          <Meal Code="2" Name="завтрак" Price="450.00">
+                                             <IncludedInPrice Code="2" Name="Нет"/>
+                                          </Meal>
+                                          <MealType Code="4" Name="завтрак"/>
+                                       </Meals>
+                                       <PricePeriods>
+                                          <Period startDate="2019-04-10" endDate="2019-04-10" priceRoom="480.00" priceMeal="450.00" days="1"/>
+                                       </PricePeriods>
+                                       <Availability Code="2" Name="">
+                                          <Allotment Code="0" Name="" Rooms="12"/>
+                                       </Availability>
+                                       <WhereToPay Code="3" Name="Безналичная оплата"/>
+                                       <RoomAmenities>
+                                          <RoomAmenity Code="6" Name="Телевизор"/>
+                                          <RoomAmenity Code="7" Name="Стиральная машина"/>
+                                          <RoomAmenity Code="8" Name="Телефон"/>
+                                          <RoomAmenity Code="17" Name="Фен"/>
+                                          <RoomAmenity Code="24" Name="Душ/душевая кабинка"/>
+                                          <RoomAmenity Code="26" Name="Общие удобства"/>
+                                          <RoomAmenity Code="34" Name="Шкаф"/>
+                                          <RoomAmenity Code="42" Name="Двухъярусная кровать"/>
+                                       </RoomAmenities>
+                                    </HotelOfferDetail>
+                                    <NumberOfGuests>1</NumberOfGuests>
+                                    <Persons>
+                                       <Person Id="5898239" LastName="Макгрегор" FirstName="Конор"/>
+                                    </Persons>
+                                 </Details>
+                                 <Accessor id_System="33" id_City="8258" HotelName="Дом 55" id_ProviderGroup="1" id_Profile="5">
+                                    <HotelCode>14987</HotelCode>
+                                    <Adults>1</Adults>
+                                    <ChildAges/>
+                                    <Checkin>01.01.0001</Checkin>
+                                    <Checkout>01.01.0001</Checkout>
+                                    <CurrentPaymentType>0</CurrentPaymentType>
+                                    <Details City="18"/>
+                                 </Accessor>
+                              </BaseHotelRateAccessor>
+                              <ExtendedRatePrice TotalPrice="830" ExtraPrice="0" CurrencyCode="RUB" OriginalPrice="480" ConvertionRate="1" HiddenServiceFee="0" ServiceFee="350" Discount="0" ComparisionTotalPrice="830" ComparisionOriginalPrice="480" ComparisionDiscount="0" ComparisionServiceFee="350" ComparisionHiddenServiceFee="0">
+                                 <id_Currency>3</id_Currency>
+                                 <PriceChangeLog/>
+                                 <VAT>НДС не включен</VAT>
+                              </ExtendedRatePrice>
+                              <CheckInSurcharge>
+                                 <Item>
+                                    <key>0</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>1</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>2</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>3</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>4</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>5</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>6</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>7</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>8</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>9</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>10</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>11</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>12</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>13</key>
+                                    <value>240</value>
+                                 </Item>
+                              </CheckInSurcharge>
+                              <CheckOutSurcharge>
+                                 <Item>
+                                    <key>13</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>14</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>15</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>16</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>17</key>
+                                    <value>240</value>
+                                 </Item>
+                                 <Item>
+                                    <key>18</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>19</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>20</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>21</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>22</key>
+                                    <value>480</value>
+                                 </Item>
+                                 <Item>
+                                    <key>23</key>
+                                    <value>480</value>
+                                 </Item>
+                              </CheckOutSurcharge>
+                           </ExtendedRoomDescription>
+                        </Rooms>
+                        <RefundPenalty>
+                           <ExtendedRatePrice TotalPrice="0" ExtraPrice="0" CurrencyCode="RUB" OriginalPrice="0" ConvertionRate="1" HiddenServiceFee="0" ServiceFee="0" Discount="0" ComparisionTotalPrice="0" ComparisionOriginalPrice="0" ComparisionDiscount="0" ComparisionServiceFee="0" ComparisionHiddenServiceFee="0">
+                              <id_Currency/>
+                              <PriceChangeLog/>
+                              <VAT>НДС не включен</VAT>
+                           </ExtendedRatePrice>
+                        </RefundPenalty>
+                        <Locator>2564401</Locator>
+                        <VendorLocator/>
+                        <Guests>
+                           <Person>
+                              <Citizenship>RU</Citizenship>
+                              <DocumentNumber/>
+                              <FirstName>Конор</FirstName>
+                              <Gender>true</Gender>
+                              <LastName>Макгрегор</LastName>
+                              <DateBirth>10.10.1980 0:00:00</DateBirth>
+                           </Person>
+                        </Guests>
+                        <Remarks/>
+                     </BLExtendedBooking>
+                  </OrderSpecificData>
+                  <MostCheapVariant>
+                     <NotAvailable xmlns=""/>
+                  </MostCheapVariant>
+                  <MostExpensiveVariant>
+                     <NotAvailable xmlns=""/>
+                  </MostExpensiveVariant>
+                  <Creator id_Client="125564" id_Group="7574" Email="connor@corteos.ru" LastName="Макгрегор" FirstName="Конор"/>
+                  <ServiceTeam>
+                     <id_ServiceTeam>888</id_ServiceTeam>
+                     <Name>Тестирование JV3</Name>
+                     <Code>JV3</Code>
+                  </ServiceTeam>
+                  <Codes/>
+                  <Passengers>
+                     <StablePassenger>
+                        <id_Passenger>2084260</id_Passenger>
+                        <id_Person>861169</id_Person>
+                        <FirstName>Конор</FirstName>
+                        <LastName>Макгрегор</LastName>
+                        <FirstNameLatin>Conor</FirstNameLatin>
+                        <LastNameLatin>McGregor</LastNameLatin>
+                        <SurName>Энтони</SurName>
+                        <DocumentType>Passport</DocumentType>
+                        <id_Document>0</id_Document>
+                        <id_MileCard xsi:nil="true"/>
+                        <Codes/>
+                     </StablePassenger>
+                  </Passengers>
+                  <Violations>
+                     <StablePolicyViolation>
+                        <id_Violation>239413</id_Violation>
+                        <id_Policy>4327</id_Policy>
+                        <TravelPolicyName>для UFC</TravelPolicyName>
+                        <ViolationTextEnglish>DaysUntilCheckInRule: You can only book hotels 7 days prior to check in. (Макгрегор Конор Энтони)</ViolationTextEnglish>
+                        <ViolationTextRussian>DaysUntilCheckInRule: Бронирование гостиниц запрещено менее, чем за 7 дней до заезда. (Макгрегор Конор Энтони)</ViolationTextRussian>
+                     </StablePolicyViolation>
+                  </Violations>
+                  <Files>
+                     <StableFile>
+                        <id_File>3039128</id_File>
+                        <Caption>Макгрегор,ekonom koyko-mesto (Obshchie udobstva),Дом 55,Samara,10.04-11.04.2019</Caption>
+                        <Url>https://static.corteos.ru/2019-4/1756526/c6594148-9408-41a9-8a18-1aae556db31c/МАКГРЕГОР 10.04_1N ДОМ 55_SAMARA.PDF?t=636898914153307497</Url>
+                        <IsTravelDocument>true</IsTravelDocument>
+                        <TicketNumber>-</TicketNumber>
+                        <id_User>125564</id_User>
+                     </StableFile>
+                  </Files>
+                  <Payer>
+                     <id_PayerOrganization>11647</id_PayerOrganization>
+                     <INN>12312332312</INN>
+                     <KPP>674327323</KPP>
+                  </Payer>
+                  <ComplexReserveReference id_ComplexReserve="757035" Name="Самара" id_ClientCreator="125564" CreationDate="2019-04-03T12:29:53.34" CurrentState="Draft">
+                     <Codes>
+                        <StableCode>
+                           <id_MetaCode>338</id_MetaCode>
+                           <id_MetaDictionary>139</id_MetaDictionary>
+                           <CodeValue>FIG</CodeValue>
+                           <CodeName>Боец</CodeName>
+                           <DictionaryName>Job</DictionaryName>
+                           <DictionaryType>StructuralPersonal</DictionaryType>
+                           <id_Person>861169</id_Person>
+                        </StableCode>
+                        <StableCode>
+                           <id_MetaCode>336</id_MetaCode>
+                           <id_MetaDictionary>150</id_MetaDictionary>
+                           <CodeValue>UFC</CodeValue>
+                           <CodeName>UFC</CodeName>
+                           <DictionaryName>Department</DictionaryName>
+                           <DictionaryType>StructuralPersonal</DictionaryType>
+                           <id_Person>861169</id_Person>
+                        </StableCode>
+                        <StableCode>
+                           <id_MetaCode>343</id_MetaCode>
+                           <id_MetaDictionary>151</id_MetaDictionary>
+                           <CodeValue>CNR</CodeValue>
+                           <CodeName>Команда Коннора</CodeName>
+                           <DictionaryName>Команда</DictionaryName>
+                           <DictionaryType>StructuralPersonal</DictionaryType>
+                           <id_Person>861169</id_Person>
+                        </StableCode>
+                     </Codes>
+                  </ComplexReserveReference>
+               </StableSimpleReserve>
+            </ResponseDetails>
+         </FindSimpleReserveByLocatorResult>
+      </FindSimpleReserveByLocatorResponse>
+   </soap:Body>
+</soap:Envelope>
