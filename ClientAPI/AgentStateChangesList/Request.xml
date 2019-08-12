@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://corteos.ru">
+   <soapenv:Header>
+      <cor:AuthHeader>
+         <!--Optional:-->
+         <cor:Token>5cfcdb30-xxxx-xxxx-xxxx-2e360c455249</cor:Token>
+      </cor:AuthHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cor:GetReservesStateChangeList>
+         <cor:dateStart>2019-01-01</cor:dateStart>
+         <cor:dateEnd>2019-10-10</cor:dateEnd>
+      </cor:GetReservesStateChangeList>
+   </soapenv:Body>
+</soapenv:Envelope>
