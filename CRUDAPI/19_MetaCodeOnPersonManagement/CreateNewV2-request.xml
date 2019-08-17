@@ -1,0 +1,43 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cor="http://corteos.ru">
+	<soapenv:Header>
+		<cor:AuthHeader>
+			<!--Optional:-->
+			<cor:Token>ff960652-xxxx-xxxx-xxxx-f491ffb07387</cor:Token>
+		</cor:AuthHeader>
+	</soapenv:Header>
+	<soapenv:Body>
+		<cor:CreateNewCodeAndRelationV2>
+			<!--Optional:-->
+			<cor:relationObj>
+				<cor:idRelation>52307</cor:idRelation>
+				<cor:idPerson>918043</cor:idPerson>
+				<!--Optional:-->
+				<cor:Type>1</cor:Type>
+				<!--Optional:-->
+				<cor:Name>TestRelation</cor:Name>
+			</cor:relationObj>
+			<!--Optional:-->
+			<cor:codeObj deleted="false">
+				<cor:idGroup>63</cor:idGroup>
+				<cor:idMetaCode>115</cor:idMetaCode>
+				<!--Optional:-->
+				<cor:Name>Дворник</cor:Name>
+				<!--Optional:-->
+				<cor:NameLatin>Janitor</cor:NameLatin>
+				<!--Optional:-->
+				<cor:Tag>?</cor:Tag>
+				<!--Optional:-->
+				<cor:CodeValue>JAN</cor:CodeValue>
+				<cor:idMetaDictionary>102</cor:idMetaDictionary>
+				<cor:idMetaDictionaryType>2</cor:idMetaDictionaryType>
+				<cor:SelectorMode>2</cor:SelectorMode>
+				<!--Optional:-->
+				<cor:DictionaryName>Должность</cor:DictionaryName>
+				<!--Optional:-->
+				<cor:DictionaryNameLatin>Job</cor:DictionaryNameLatin>
+				<!--Optional:-->
+				<cor:DictionaryTag>?</cor:DictionaryTag>
+			</cor:codeObj>
+		</cor:CreateNewCodeAndRelationV2>
+	</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,23 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cor="http://corteos.ru">
+	<soap:Header>
+		<cor:AuthHeader>
+			<!--Optional:-->
+			<cor:Token>ff960652-xxxx-xxxx-xxxx-f491ffb07387</cor:Token>
+		</cor:AuthHeader>
+	</soap:Header>
+	<soap:Body>
+		<cor:EditV2>
+			<!--Optional:-->
+			<cor:relationObj>
+				<cor:idPerson>918043</cor:idPerson>
+				<!--Optional:-->
+				<cor:Type>1</cor:Type>
+				<!--Optional:-->
+				<cor:Name>Дворник</cor:Name>
+				<cor:idMetaCode>115</cor:idMetaCode>
+				<cor:idGroup>63</cor:idGroup>
+				<cor:deleted>false</cor:deleted>
+			</cor:relationObj>
+		</cor:EditV2>
+	</soap:Body>
+</soap:Envelope>

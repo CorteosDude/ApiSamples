@@ -1,0 +1,33 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<DeleteV2Response xmlns="http://corteos.ru">
+			<DeleteV2Result>
+				<Trace ResponseDate="2019-08-10T19:27:03.1104776+03:00" SessionID="4TMW4E" IP="127.0.0.1" WebSite="http://desktop-e0d782o@localhost:63742"/>
+				<Errors/>
+				<ResponseDetails deleted="true">
+					<DateCreate>2018-07-12T12:04:04.603</DateCreate>
+					<DateChanged>2018-12-18T16:28:36.183</DateChanged>
+					<idGroup>63</idGroup>
+					<id_Relation xsi:nil="true"/>
+					<Type>Relate</Type>
+					<idMetaCode>115</idMetaCode>
+					<Name>Дворник</Name>
+					<NameLatin>Janitor</NameLatin>
+					<idMetaDictionary>102</idMetaDictionary>
+					<CodeValue>JAN</CodeValue>
+					<idMetaDictionaryType>2</idMetaDictionaryType>
+					<DictionaryName>Должность</DictionaryName>
+					<DictionaryNameLatin>Job</DictionaryNameLatin>
+					<SelectorMode>2</SelectorMode>
+					<SequenceNumber>0</SequenceNumber>
+					<id_RealMetaCode xsi:nil="true"/>
+					<IsReadOnly>false</IsReadOnly>
+					<CurrentType>Relate</CurrentType>
+					<Policies/>
+					<DictionaryType>StructuralPersonal</DictionaryType>
+					<idPerson>918043</idPerson>
+				</ResponseDetails>
+			</DeleteV2Result>
+		</DeleteV2Response>
+	</soap:Body>
+</soap:Envelope>
