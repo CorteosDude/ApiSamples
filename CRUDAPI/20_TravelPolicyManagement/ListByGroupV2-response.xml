@@ -1,0 +1,237 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <ListByGroupV2Response xmlns="http://corteos.ru">
+         <ListByGroupV2Result>
+            <Trace ResponseDate="2019-08-29T19:39:14.2653585+03:00" SessionID="1T8G867XHQJ3J" IP="212.233.125.182" WebSite="https://prd.corteos.ru"/>
+            <Errors/>
+            <ResponseDetails>
+               <TravelPolicy deleted="false">
+                  <DateCreate>2019-03-19T11:39:54.37</DateCreate>
+                  <DateChanged>2019-07-25T10:29:52.397</DateChanged>
+                  <id_Policy>4641</id_Policy>
+                  <Name>Авиа</Name>
+                  <id_Group>8158</id_Group>
+                  <id_ReserveType>1</id_ReserveType>
+                  <NameLatin>Air</NameLatin>
+                  <Version>2</Version>
+                  <Description>Авиа</Description>
+                  <XML><![CDATA[<?xml version="1.0"?>
+<AviaEngineV2Policy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DepartureTime>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <AllowedHoursMin>0</AllowedHoursMin>
+    <AllowedHoursMax>0</AllowedHoursMax>
+  </DepartureTime>
+  <Connections>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <MaximumConnectionsValue>0</MaximumConnectionsValue>
+  </Connections>
+  <FlightNumbers>
+    <Enabled>true</Enabled>
+    <id_BudgetCode>607</id_BudgetCode>
+    <ForbiddenFlights>
+      <ForbiddenFlight>
+        <id_BudgetCode>607</id_BudgetCode>
+        <Airline>DP</Airline>
+      </ForbiddenFlight>
+    </ForbiddenFlights>
+    <OnlySelectedFlightsAreAllowed>false</OnlySelectedFlightsAreAllowed>
+  </FlightNumbers>
+  <AirplaneTypes>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <ForbiddenAirplaneTypes />
+    <OnlySelectedAirplanesAreAllowed>false</OnlySelectedAirplanesAreAllowed>
+  </AirplaneTypes>
+  <Geography>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <IsAcceptRule>false</IsAcceptRule>
+  </Geography>
+  <DaysToDeparture>
+    <Enabled>true</Enabled>
+    <id_BudgetCode>607</id_BudgetCode>
+    <Days>14</Days>
+  </DaysToDeparture>
+  <WeekDays>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <WeekDays />
+    <ExactDays />
+  </WeekDays>
+  <AdvancedFareClass>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </AdvancedFareClass>
+  <AdvancedPriceDeviations>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </AdvancedPriceDeviations>
+  <AdvancedPriceLimits>
+    <Enabled>true</Enabled>
+    <id_BudgetCode>607</id_BudgetCode>
+    <Routes>
+      <AirRoutePriceLimit>
+        <Origins>MOW,LED,ZIA</Origins>
+        <Destinations>KUF,AER,KZN</Destinations>
+        <id_Code>607</id_Code>
+        <IncludeServiceFee>false</IncludeServiceFee>
+        <LimitExcess xsi:nil="true" />
+        <OW>6000</OW>
+        <RT>12000</RT>
+      </AirRoutePriceLimit>
+    </Routes>
+  </AdvancedPriceLimits>
+</AviaEngineV2Policy>]]></XML>
+                  <ReserveType>Avia</ReserveType>
+               </TravelPolicy>
+               <TravelPolicy deleted="false">
+                  <DateCreate>2019-03-19T11:43:55.207</DateCreate>
+                  <DateChanged>2019-07-25T10:34:39.06</DateChanged>
+                  <id_Policy>4643</id_Policy>
+                  <Name>ЖД</Name>
+                  <id_Group>8158</id_Group>
+                  <id_ReserveType>2</id_ReserveType>
+                  <NameLatin>Train</NameLatin>
+                  <Version>3</Version>
+                  <Description>ЖД</Description>
+                  <XML><![CDATA[<?xml version="1.0"?>
+<RailV3Policy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TrainType>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <AllowedCathegories />
+  </TrainType>
+  <VagonType>
+    <Enabled>true</Enabled>
+    <id_BudgetCode>607</id_BudgetCode>
+    <AllowedTypes>
+      <TrainFareTypeForTravelPolicy>Coupet</TrainFareTypeForTravelPolicy>
+      <TrainFareTypeForTravelPolicy>Platzcart</TrainFareTypeForTravelPolicy>
+      <TrainFareTypeForTravelPolicy>Seats</TrainFareTypeForTravelPolicy>
+      <TrainFareTypeForTravelPolicy>SapsanEconomy</TrainFareTypeForTravelPolicy>
+      <TrainFareTypeForTravelPolicy>Lastochka</TrainFareTypeForTravelPolicy>
+      <TrainFareTypeForTravelPolicy>Strizh</TrainFareTypeForTravelPolicy>
+    </AllowedTypes>
+    <AllowGivenServiceClassesOnly>false</AllowGivenServiceClassesOnly>
+  </VagonType>
+  <Duration>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <DurationHours>0</DurationHours>
+    <DurationHoursTo>0</DurationHoursTo>
+  </Duration>
+  <DaysOfWeek>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <WeekDays />
+    <ExactDays />
+  </DaysOfWeek>
+  <DaysToDepart>
+    <Enabled>true</Enabled>
+    <id_BudgetCode>606</id_BudgetCode>
+    <Days>14</Days>
+  </DaysToDepart>
+  <Price>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <PriceLimitations />
+  </Price>
+  <Route>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </Route>
+  <RoutePrice>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </RoutePrice>
+  <DurationByServiceClass>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <DurationLimits />
+  </DurationByServiceClass>
+</RailV3Policy>]]></XML>
+                  <ReserveType>Rail</ReserveType>
+               </TravelPolicy>
+               <TravelPolicy deleted="false">
+                  <DateCreate>2019-06-10T10:43:59.433</DateCreate>
+                  <DateChanged>2019-06-10T10:51:07.21</DateChanged>
+                  <id_Policy>4829</id_Policy>
+                  <Name>Тест</Name>
+                  <id_Group>8158</id_Group>
+                  <id_ReserveType>1</id_ReserveType>
+                  <NameLatin>Test</NameLatin>
+                  <Version>2</Version>
+                  <Description>Тест</Description>
+                  <XML><![CDATA[<?xml version="1.0"?>
+<AviaEngineV2Policy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DepartureTime>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <AllowedHoursMin>0</AllowedHoursMin>
+    <AllowedHoursMax>0</AllowedHoursMax>
+  </DepartureTime>
+  <Connections>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <MaximumConnectionsValue>0</MaximumConnectionsValue>
+  </Connections>
+  <FlightNumbers>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <ForbiddenFlights />
+    <OnlySelectedFlightsAreAllowed>false</OnlySelectedFlightsAreAllowed>
+  </FlightNumbers>
+  <AirplaneTypes>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <ForbiddenAirplaneTypes />
+    <OnlySelectedAirplanesAreAllowed>false</OnlySelectedAirplanesAreAllowed>
+  </AirplaneTypes>
+  <Geography>
+    <Enabled>true</Enabled>
+    <id_BudgetCode>607</id_BudgetCode>
+    <IsAcceptRule>false</IsAcceptRule>
+    <PrimaryGeographyCodeStrings>KUF,KZN,CN</PrimaryGeographyCodeStrings>
+    <ExceptionCityCodesString>PEK</ExceptionCityCodesString>
+  </Geography>
+  <DaysToDeparture>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Days>0</Days>
+  </DaysToDeparture>
+  <WeekDays>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <WeekDays />
+    <ExactDays />
+  </WeekDays>
+  <AdvancedFareClass>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </AdvancedFareClass>
+  <AdvancedPriceDeviations>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </AdvancedPriceDeviations>
+  <AdvancedPriceLimits>
+    <Enabled>false</Enabled>
+    <id_BudgetCode xsi:nil="true" />
+    <Routes />
+  </AdvancedPriceLimits>
+</AviaEngineV2Policy>]]></XML>
+                  <ReserveType>Avia</ReserveType>
+               </TravelPolicy>
+            </ResponseDetails>
+         </ListByGroupV2Result>
+      </ListByGroupV2Response>
+   </soap:Body>
+</soap:Envelope>
