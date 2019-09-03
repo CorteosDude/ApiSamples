@@ -1,33 +1,42 @@
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-   <soap:Body>
-      <CreateNewV2Response xmlns="http://corteos.ru">
-         <CreateNewV2Result>
-            <Trace ResponseDate="2019-07-18T20:35:59.2651745+03:00" SessionID="9GFY6P" IP="77.66.176.236" WebSite="https://demo.corteos.ru"/>
-            <Errors/>
-            <ResponseDetails>
-               <CreatedGroup deleted="false" id_GroupType="3" Name="test group">
-                  <DateCreate>0001-01-01T00:00:00</DateCreate>
-                  <DateChanged>0001-01-01T00:00:00</DateChanged>
-                  <ExtensionData/>
-                  <id_Group>7751</id_Group>
-                  <CurrentType>CorporateClient</CurrentType>
-               </CreatedGroup>
-               <CreatedAgreement deleted="false">
-                  <DateCreate>0001-01-01T00:00:00</DateCreate>
-                  <DateChanged>0001-01-01T00:00:00</DateChanged>
-                  <ExtensionData/>
-                  <id_Agreement>7149</id_Agreement>
-                  <Title>test group</Title>
-                  <id_CustomerGroup>7751</id_CustomerGroup>
-                  <id_ProviderGroup>1</id_ProviderGroup>
-                  <IsCustomerApproved>true</IsCustomerApproved>
-                  <IsSupplierApproved>true</IsSupplierApproved>
-                  <id_ServiceTeam>688</id_ServiceTeam>
-                  <IsTest>false</IsTest>
-                  <LimitDate xsi:nil="true"/>
-               </CreatedAgreement>
-            </ResponseDetails>
-         </CreateNewV2Result>
-      </CreateNewV2Response>
-   </soap:Body>
+<soap:Body>
+<CreateNewV2Response xmlns="http://corteos.ru">
+<CreateNewV2Result>
+<Trace ResponseDate="2019-09-03T10:25:11.7177935+03:00" SessionID="EMLE5VS6LRF3" IP="127.0.0.1" WebSite="http://perov-pc@localhost:63742"/>
+<Errors/>
+<ResponseDetails>
+<CreatedGroup deleted="false" id_GroupType="3" Name="TEST V3">
+<DateCreate>0001-01-01T00:00:00</DateCreate>
+<DateChanged>0001-01-01T00:00:00</DateChanged>
+<ExtensionData/>
+<id_Group>7801</id_Group>
+<CurrentType>CorporateClient</CurrentType>
+</CreatedGroup>
+<CreatedAgreement deleted="false">
+<DateCreate>0001-01-01T00:00:00</DateCreate>
+<DateChanged>0001-01-01T00:00:00</DateChanged>
+<ExtensionData/>
+<id_Agreement>7173</id_Agreement>
+<Title>TEST V3</Title>
+<id_CustomerGroup>7801</id_CustomerGroup>
+<id_ProviderGroup>1</id_ProviderGroup>
+<IsCustomerApproved>true</IsCustomerApproved>
+<IsSupplierApproved>true</IsSupplierApproved>
+<id_ServiceTeam>688</id_ServiceTeam>
+<IsTest>false</IsTest>
+<LimitDate xsi:nil="true"/>
+</CreatedAgreement>
+<CreatedOrganization deleted="false" id_Group="7801">
+<DateCreate>0001-01-01T00:00:00</DateCreate>
+<DateChanged>0001-01-01T00:00:00</DateChanged>
+<id_Organization>11999</id_Organization>
+<Name>Test ltd</Name>
+<INN>11111111111</INN>
+<KPP>2222222222222</KPP>
+<Phone>78473792747</Phone>
+</CreatedOrganization>
+</ResponseDetails>
+</CreateNewV2Result>
+</CreateNewV2Response>
+</soap:Body>
 </soap:Envelope>
