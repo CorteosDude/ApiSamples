@@ -1,7 +1,7 @@
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+п»ї<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <soap:Body>
       <GetSimpleReserveByIdResponse xmlns="http://corteos.ru">
-         <GetSimpleReserveByIdResult id_Reserve="1757955" id_ComplexReserve="757989" ComplexReserveName="Санкт-Петербург" Locator="N3V7NK" Price="3239.6" Header="Москва-Санкт-Петербург" Brief="S7-1005 DME-LED 07:50 (BASIC ECONOMY)" OrderTypeName="Avia" id_ReserveType="1" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="697" id_ReserveState="7" ReserveStateName="queued" DateCreate="2019-07-05T13:56:05.04">
+         <GetSimpleReserveByIdResult id_Reserve="1757955" id_ComplexReserve="757989" ComplexReserveName="РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі" Locator="N3V7NK" Price="3239.6" Header="РњРѕСЃРєРІР°-РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі" Brief="S7-1005 DME-LED 07:50 (BASIC ECONOMY)" OrderTypeName="Avia" id_ReserveType="1" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="697" id_ReserveState="7" ReserveStateName="queued" DateCreate="2019-07-05T13:56:05.04">
             <id_PayerOrganization>68</id_PayerOrganization>
             <OrderSpecificData>
                <BLMultiItinerary Key="4984891" xmlns="">
@@ -16,7 +16,7 @@
                            <MetaData>
                               <gds>9</gds>
                            </MetaData>
-                           <Flight Key="3519383213" Airline="S7" OperatingAirline="S7" Number="1005" Origin="DME" OriginTerminal="" Destination="LED" DestinationTerminal="1" DepartureDate="20.11.2019 7:50:00" ArrivalDate="20.11.2019 9:30:00" AirplaneCode="Airbus A319" Status="HK" NumOfStops="0" RBD="w" FareName="WBSOW" SeatsStatus="9" AirlineLocator="" Baggage="0" OriginCountryName="Россия" OriginCityName="Москва" DestinationCountryName="Россия" DestinationCityName="Санкт-Петербург"/>
+                           <Flight Key="3519383213" Airline="S7" OperatingAirline="S7" Number="1005" Origin="DME" OriginTerminal="" Destination="LED" DestinationTerminal="1" DepartureDate="20.11.2019 7:50:00" ArrivalDate="20.11.2019 9:30:00" AirplaneCode="Airbus A319" Status="HK" NumOfStops="0" RBD="w" FareName="WBSOW" SeatsStatus="9" AirlineLocator="" Baggage="0" OriginCountryName="Р РѕСЃСЃРёСЏ" OriginCityName="РњРѕСЃРєРІР°" DestinationCountryName="Р РѕСЃСЃРёСЏ" DestinationCityName="РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі"/>
                         </Leg>
                      </Legs>
                      <Masks>
@@ -61,7 +61,7 @@
                      <ItineraryUpsell Key="733002392" FamilyName="WITH BAGGAGE" Airline="4G" FamilyCode="AV3_BAGGAGE" EquivTotal="1385.69" EquivTotalDifference="0" HasFreeBaggage="true" BaggageCodes="1PC"/>
                      <Legs>
                         <Leg Key="2289426210" id_System="2" DurationMinutes="85">
-                           <Flight Key="947866696" Airline="4G" OperatingAirline="4G" Number="105" Origin="DME" OriginTerminal="" Destination="LED" DestinationTerminal="2" DepartureDate="20.11.2019 10:15:00" ArrivalDate="20.11.2019 11:40:00" AirplaneCode="737" Status="HK" NumOfStops="0" RBD="E" FareName="ESALEOW" SeatsStatus="9" AirlineLocator="" Baggage="1PC" OriginCountryName="Россия" OriginCityName="Москва" DestinationCountryName="Россия" DestinationCityName="Санкт-Петербург"/>
+                           <Flight Key="947866696" Airline="4G" OperatingAirline="4G" Number="105" Origin="DME" OriginTerminal="" Destination="LED" DestinationTerminal="2" DepartureDate="20.11.2019 10:15:00" ArrivalDate="20.11.2019 11:40:00" AirplaneCode="737" Status="HK" NumOfStops="0" RBD="E" FareName="ESALEOW" SeatsStatus="9" AirlineLocator="" Baggage="1PC" OriginCountryName="Р РѕСЃСЃРёСЏ" OriginCityName="РњРѕСЃРєРІР°" DestinationCountryName="Р РѕСЃСЃРёСЏ" DestinationCityName="РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі"/>
                         </Leg>
                      </Legs>
                      <Masks>
@@ -100,8 +100,8 @@
                      <ItineraryUpsell Key="733002392" FamilyName="WITH BAGGAGE" Airline="SU" FamilyCode="AV3_BAGGAGE" EquivTotal="60957.52" EquivTotalDifference="0" HasFreeBaggage="true" BaggageCodes="1N"/>
                      <Legs>
                         <Leg Key="483801400" id_System="3" DurationMinutes="1760">
-                           <Flight Key="3195860131" Airline="SU" OperatingAirline="SU" Number="1462" Origin="SVO" OriginTerminal="B" Destination="OVB" DestinationTerminal="A" DepartureDate="20.11.2019 7:05:00" ArrivalDate="20.11.2019 15:15:00" AirplaneCode="32A" Status="HK" NumOfStops="0" RBD="B" FareName="BCOR" SeatsStatus="7" AirlineLocator="" Baggage="1N" OriginCountryName="Россия" OriginCityName="Москва" DestinationCountryName="Россия" DestinationCityName="Новосибирск"/>
-                           <Flight Key="1707016463" Airline="S7" OperatingAirline="GH" Number="5003" Origin="OVB" OriginTerminal="A" Destination="LED" DestinationTerminal="1" DepartureDate="21.11.2019 11:40:00" ArrivalDate="21.11.2019 12:25:00" AirplaneCode="738" Status="HK" NumOfStops="0" RBD="R" FareName="RFLOW" SeatsStatus="9" AirlineLocator="" Baggage="1N" OriginCountryName="Россия" OriginCityName="Новосибирск" DestinationCountryName="Россия" DestinationCityName="Санкт-Петербург"/>
+                           <Flight Key="3195860131" Airline="SU" OperatingAirline="SU" Number="1462" Origin="SVO" OriginTerminal="B" Destination="OVB" DestinationTerminal="A" DepartureDate="20.11.2019 7:05:00" ArrivalDate="20.11.2019 15:15:00" AirplaneCode="32A" Status="HK" NumOfStops="0" RBD="B" FareName="BCOR" SeatsStatus="7" AirlineLocator="" Baggage="1N" OriginCountryName="Р РѕСЃСЃРёСЏ" OriginCityName="РњРѕСЃРєРІР°" DestinationCountryName="Р РѕСЃСЃРёСЏ" DestinationCityName="РќРѕРІРѕСЃРёР±РёСЂСЃРє"/>
+                           <Flight Key="1707016463" Airline="S7" OperatingAirline="GH" Number="5003" Origin="OVB" OriginTerminal="A" Destination="LED" DestinationTerminal="1" DepartureDate="21.11.2019 11:40:00" ArrivalDate="21.11.2019 12:25:00" AirplaneCode="738" Status="HK" NumOfStops="0" RBD="R" FareName="RFLOW" SeatsStatus="9" AirlineLocator="" Baggage="1N" OriginCountryName="Р РѕСЃСЃРёСЏ" OriginCityName="РќРѕРІРѕСЃРёР±РёСЂСЃРє" DestinationCountryName="Р РѕСЃСЃРёСЏ" DestinationCityName="РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі"/>
                         </Leg>
                      </Legs>
                      <Masks>
@@ -132,18 +132,18 @@ LAST TKT DTE
                   </Itinerary>
                </MultiItinerary>
             </MostExpensiveVariant>
-            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="Соколинина" FirstName="Мариночка"/>
+            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="РЎРѕРєРѕР»РёРЅРёРЅР°" FirstName="РњР°СЂРёРЅРѕС‡РєР°"/>
             <ServiceTeam>
                <id_ServiceTeam>697</id_ServiceTeam>
-               <Name>Т2 тестирование</Name>
+               <Name>Рў2 С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ</Name>
             </ServiceTeam>
             <Codes/>
             <Passengers>
                <StablePassenger>
                   <id_Passenger>2086911</id_Passenger>
                   <id_Person>10786</id_Person>
-                  <FirstName>Максим</FirstName>
-                  <LastName>Тараненко</LastName>
+                  <FirstName>РњР°РєСЃРёРј</FirstName>
+                  <LastName>РўР°СЂР°РЅРµРЅРєРѕ</LastName>
                   <FirstNameLatin>Max</FirstNameLatin>
                   <LastNameLatin>Taranenko</LastNameLatin>
                   <SurName/>
@@ -158,9 +158,9 @@ LAST TKT DTE
                <StablePolicyViolation>
                   <id_Violation>240167</id_Violation>
                   <id_Policy>3837</id_Policy>
-                  <TravelPolicyName>50% от минималки</TravelPolicyName>
-                  <ViolationTextEnglish>AdvancedPriceDeviationRule: Selected variant price is 3240 rub, while optimal price for the route is 1386 rub, travel policy allows only 50% deviation from the minimal price (Тараненко Максим)</ViolationTextEnglish>
-                  <ViolationTextRussian>AdvancedPriceDeviationRule: Стоимость выбранного варианта составляет 3240 руб, стоимость минимального варианта - 1386 руб, допустимый процент отклонения от минимальной цены для этого маршрута составляет 50% (Тараненко Максим)</ViolationTextRussian>
+                  <TravelPolicyName>50% РѕС‚ РјРёРЅРёРјР°Р»РєРё</TravelPolicyName>
+                  <ViolationTextEnglish>AdvancedPriceDeviationRule: Selected variant price is 3240 rub, while optimal price for the route is 1386 rub, travel policy allows only 50% deviation from the minimal price (РўР°СЂР°РЅРµРЅРєРѕ РњР°РєСЃРёРј)</ViolationTextEnglish>
+                  <ViolationTextRussian>AdvancedPriceDeviationRule: РЎС‚РѕРёРјРѕСЃС‚СЊ РІС‹Р±СЂР°РЅРЅРѕРіРѕ РІР°СЂРёР°РЅС‚Р° СЃРѕСЃС‚Р°РІР»СЏРµС‚ 3240 СЂСѓР±, СЃС‚РѕРёРјРѕСЃС‚СЊ РјРёРЅРёРјР°Р»СЊРЅРѕРіРѕ РІР°СЂРёР°РЅС‚Р° - 1386 СЂСѓР±, РґРѕРїСѓСЃС‚РёРјС‹Р№ РїСЂРѕС†РµРЅС‚ РѕС‚РєР»РѕРЅРµРЅРёСЏ РѕС‚ РјРёРЅРёРјР°Р»СЊРЅРѕР№ С†РµРЅС‹ РґР»СЏ СЌС‚РѕРіРѕ РјР°СЂС€СЂСѓС‚Р° СЃРѕСЃС‚Р°РІР»СЏРµС‚ 50% (РўР°СЂР°РЅРµРЅРєРѕ РњР°РєСЃРёРј)</ViolationTextRussian>
                </StablePolicyViolation>
             </Violations>
             <Files>
@@ -178,22 +178,22 @@ LAST TKT DTE
                <INN>7799521829</INN>
                <KPP>779901001</KPP>
             </Payer>
-            <ComplexReserveReference id_ComplexReserve="757989" Name="Санкт-Петербург" id_ClientCreator="113" CreationDate="2019-07-05T13:55:39.93" CurrentState="Finished">
+            <ComplexReserveReference id_ComplexReserve="757989" Name="РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі" id_ClientCreator="113" CreationDate="2019-07-05T13:55:39.93" CurrentState="Finished">
                <Codes>
                   <StableCode>
                      <id_MetaCode>116</id_MetaCode>
                      <id_MetaDictionary>102</id_MetaDictionary>
                      <CodeValue>SWR</CodeValue>
-                     <CodeName>Мечник</CodeName>
-                     <DictionaryName>Должность</DictionaryName>
+                     <CodeName>РњРµС‡РЅРёРє</CodeName>
+                     <DictionaryName>Р”РѕР»Р¶РЅРѕСЃС‚СЊ</DictionaryName>
                      <DictionaryType>StructuralPersonal</DictionaryType>
                   </StableCode>
                   <StableCode>
                      <id_MetaCode>164</id_MetaCode>
                      <id_MetaDictionary>110</id_MetaDictionary>
                      <CodeValue>Y</CodeValue>
-                     <CodeName>Да</CodeName>
-                     <DictionaryName>Начальник</DictionaryName>
+                     <CodeName>Р”Р°</CodeName>
+                     <DictionaryName>РќР°С‡Р°Р»СЊРЅРёРє</DictionaryName>
                      <DictionaryType>StructuralPersonal</DictionaryType>
                   </StableCode>
                </Codes>

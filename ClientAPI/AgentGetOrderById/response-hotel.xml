@@ -1,18 +1,18 @@
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+п»ї<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <soap:Body>
       <GetSimpleReserveByIdResponse xmlns="http://corteos.ru">
-         <GetSimpleReserveByIdResult id_Reserve="1757389" id_ComplexReserve="757630" ComplexReserveName="Москва" Locator="98164" Price="55555" Header="Размещение в Москва" Brief="Татьяна" OrderTypeName="Hotel" id_ReserveType="3" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="8" id_ReserveState="5" ReserveStateName="finished" DateCreate="2019-05-23T17:29:57.483">
+         <GetSimpleReserveByIdResult id_Reserve="1757389" id_ComplexReserve="757630" ComplexReserveName="РњРѕСЃРєРІР°" Locator="98164" Price="55555" Header="Р Р°Р·РјРµС‰РµРЅРёРµ РІ РњРѕСЃРєРІР°" Brief="РўР°С‚СЊСЏРЅР°" OrderTypeName="Hotel" id_ReserveType="3" id_AgentGroup="1" id_ClientGroup="63" id_ServiceTeam="8" id_ReserveState="5" ReserveStateName="finished" DateCreate="2019-05-23T17:29:57.483">
             <id_PayerOrganization>68</id_PayerOrganization>
             <OrderSpecificData>
-               <BLExtendedBooking Stars="3" Latitude="55.819975" Longitude="37.647020699999985" ProviderCode="TT" HasAirportTransfer="false" HasFitness="false" HasInternet="false" HasParking="false" HasSpa="false" HasPool="false" id_System="71" CanBeRefreshed="false" State="2" ruCityName="Москва" ruCountryName="Россия" enCityName="Moscow" enCountryName="Russia" xmlns="">
+               <BLExtendedBooking Stars="3" Latitude="55.819975" Longitude="37.647020699999985" ProviderCode="TT" HasAirportTransfer="false" HasFitness="false" HasInternet="false" HasParking="false" HasSpa="false" HasPool="false" id_System="71" CanBeRefreshed="false" State="2" ruCityName="РњРѕСЃРєРІР°" ruCountryName="Р РѕСЃСЃРёСЏ" enCityName="Moscow" enCountryName="Russia" xmlns="">
                   <StateString>Completed</StateString>
                   <HotelName>
-                     <BS Rus="Татьяна" En="Tatiana"/>
+                     <BS Rus="РўР°С‚СЊСЏРЅР°" En="Tatiana"/>
                   </HotelName>
-                  <NormalizedName>татьяна</NormalizedName>
+                  <NormalizedName>С‚Р°С‚СЊСЏРЅР°</NormalizedName>
                   <NormalizedNameEn>tatiana</NormalizedNameEn>
                   <HotelAddress>
-                     <BS Rus="Оксана, Ярославская улица, Москва, Россия" En="Oxana, Iaroslavskaia Ulitsa, Moskva, Rossiia"/>
+                     <BS Rus="РћРєСЃР°РЅР°, РЇСЂРѕСЃР»Р°РІСЃРєР°СЏ СѓР»РёС†Р°, РњРѕСЃРєРІР°, Р РѕСЃСЃРёСЏ" En="Oxana, Iaroslavskaia Ulitsa, Moskva, Rossiia"/>
                   </HotelAddress>
                   <Email/>
                   <Phone/>
@@ -25,7 +25,7 @@
                   <Rooms>
                      <ExtendedRoomDescription IsOnRequest="true" AutomaticEarlyCheckin="false" AutomaticLateCheckout="false" AutomaticMealAddition="false" HasBreakfast="false" HasInternet="false" HasBathroom="false" Is3D="true">
                         <RoomName>
-                           <BS Rus="Обычный" En="Simple"/>
+                           <BS Rus="РћР±С‹С‡РЅС‹Р№" En="Simple"/>
                         </RoomName>
                         <ProviderCode/>
                         <AgentInformation/>
@@ -52,7 +52,7 @@
                            <CheckInTime>12:00</CheckInTime>
                            <CheckOutTime>10:00</CheckOutTime>
                            <Details/>
-                           <Accessor id_System="71" id_City="6297" HotelName="Татьяна" id_ProviderGroup="1" id_Profile="54">
+                           <Accessor id_System="71" id_City="6297" HotelName="РўР°С‚СЊСЏРЅР°" id_ProviderGroup="1" id_Profile="54">
                               <HotelCode>492313</HotelCode>
                               <Adults>1</Adults>
                               <ChildAges/>
@@ -97,10 +97,10 @@
             <MostExpensiveVariant>
                <NotAvailable xmlns=""/>
             </MostExpensiveVariant>
-            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="Соколинина" FirstName="Мариночка"/>
+            <Creator id_Client="113" id_Group="63" Email="marina@elmotest.ru" LastName="РЎРѕРєРѕР»РёРЅРёРЅР°" FirstName="РњР°СЂРёРЅРѕС‡РєР°"/>
             <ServiceTeam>
                <id_ServiceTeam>8</id_ServiceTeam>
-               <Name>Тест СТ</Name>
+               <Name>РўРµСЃС‚ РЎРў</Name>
                <Code/>
             </ServiceTeam>
             <Codes/>
@@ -108,8 +108,8 @@
                <StablePassenger>
                   <id_Passenger>2085888</id_Passenger>
                   <id_Person>10786</id_Person>
-                  <FirstName>Максим</FirstName>
-                  <LastName>Тараненко</LastName>
+                  <FirstName>РњР°РєСЃРёРј</FirstName>
+                  <LastName>РўР°СЂР°РЅРµРЅРєРѕ</LastName>
                   <FirstNameLatin>Max</FirstNameLatin>
                   <LastNameLatin>Taranenko</LastNameLatin>
                   <SurName/>
@@ -134,22 +134,22 @@
                <INN>7799521829</INN>
                <KPP>779901001</KPP>
             </Payer>
-            <ComplexReserveReference id_ComplexReserve="757630" Name="Москва" id_ClientCreator="113" CreationDate="2019-05-23T17:29:38.293" CurrentState="Finished">
+            <ComplexReserveReference id_ComplexReserve="757630" Name="РњРѕСЃРєРІР°" id_ClientCreator="113" CreationDate="2019-05-23T17:29:38.293" CurrentState="Finished">
                <Codes>
                   <StableCode>
                      <id_MetaCode>116</id_MetaCode>
                      <id_MetaDictionary>102</id_MetaDictionary>
                      <CodeValue>SWR</CodeValue>
-                     <CodeName>Мечник</CodeName>
-                     <DictionaryName>Должность</DictionaryName>
+                     <CodeName>РњРµС‡РЅРёРє</CodeName>
+                     <DictionaryName>Р”РѕР»Р¶РЅРѕСЃС‚СЊ</DictionaryName>
                      <DictionaryType>StructuralPersonal</DictionaryType>
                   </StableCode>
                   <StableCode>
                      <id_MetaCode>164</id_MetaCode>
                      <id_MetaDictionary>110</id_MetaDictionary>
                      <CodeValue>Y</CodeValue>
-                     <CodeName>Да</CodeName>
-                     <DictionaryName>Начальник</DictionaryName>
+                     <CodeName>Р”Р°</CodeName>
+                     <DictionaryName>РќР°С‡Р°Р»СЊРЅРёРє</DictionaryName>
                      <DictionaryType>StructuralPersonal</DictionaryType>
                   </StableCode>
                </Codes>
